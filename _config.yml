@@ -8,7 +8,6 @@ patternbot:
   colors:
     background: "--color-primary-light: #fffdf6;"
     accent: "--color-accent: #ee6352;"
-    text: "--color-secondary: #283044;"
     patterns:
       brand.logos: "--color-primary-light: #fffdf6;"
   rationales:
