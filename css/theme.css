@@ -1,0 +1,85 @@
+:root {
+  --color-primary: #ece8d9;
+  --color-primary-light: #fffdf6;
+  --color-secondary: #283044;
+  --color-accent: #ee6352;
+  --color-main-button: #216869;
+
+  --font-primary: "brandon-grotesque", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary-light);
+}
+
+h1 {
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+  color: var(--color-accent);
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--color-main-button);
+}
+
+ul > li {
+  list-style-type: circle;
+}
+
+ol > li {
+  list-style-type: decimal-leading-zero;
+}
+
+blockquote {
+  color: var(--color-accent);
+}
+
+cite {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+q {
+  color: var(--color-accent);
+}
+
+del {
+  color: var(--color-accent);
+}
+
+mark {
+  background-color: var(--color-primary);
+}
+
+s {
+  color: var(--color-accent);
+}
