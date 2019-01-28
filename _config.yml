@@ -3,9 +3,14 @@ theme: jekyll_patternbot
 
 patternbot:
   title: "Surf 1685"
-  description: Surf 1685's vision is to be known as the top of the market for all surf gear. The website allows surfers of every experience level to purchase items such as wetsuits, swimwear, and cover-ups,
-while ensuring quality and top-of-the-line trends.
+  description: Surf 1685's vision is to be known as the top of the market for all surf gear. The website allows surfers of every experience level to purchase items such as wetsuits, swimwear, and cover-ups, while ensuring quality and top-of-the-line trends.
   font_url: "https://use.typekit.net/iyq3xwy.css"
+  colors:
+    background: "--color-primary-light: #fffdf6;"
+    accent: "--color-accent: #ee6352;"
+    text: "--color-secondary: #283044;"
+    patterns:
+      brand.logos: "--color-primary-light: #fffdf6;"
   rationales:
       typefaces.primary:
-        The typography used in this e-commerce website is all one font: Brandon Grotesque. It is a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website. Through the use of spacing, different weights, and variation of colours, distinguishing the different levels of hierarchy can be done with ease.
+        Brandon Grotesque was selected because it's a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website.
