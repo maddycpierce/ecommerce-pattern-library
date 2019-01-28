@@ -14,6 +14,8 @@ patternbot:
       typefaces.primary: |
         Brandon Grotesque was selected because it's a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website.
       colors.primary: |
-        The primary colours represent the sand on a beach and sand dunes. They should be used for headers, footers, and buttons.
+        The primary colours represent the sand on beaches and sand dunes. The primary colour should be used for headers, footers, buttons, and the primary light colour should be used for the background.
       colors.secondary: |
-        The secondary colours continue with the natural, sea-themed tones. One is an even lighter shade of sand, and the other a deep blue, the colour of the bottom of the sea. They should be used for backgrounds and text, respectively.
+        The secondary colour continues with the natural, sea-themed tones. It is a deep blue-the colour of the bottom of the sea. It should be used for and text.
+      color.accent: |
+        The accent colours are vibrant, slightly exaggerated colours of natural elements, such as a sunrise and seaweed. Each of the names are meant to remind the viewer of that element.
