@@ -26,6 +26,6 @@
   color: var(--color-secondary);
 }
 
-.btn-light: hover {}
-
+.btn-light:hover {
+  background-color: var(--color-main-button);
 }

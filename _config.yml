@@ -6,10 +6,14 @@ patternbot:
   description: Surf 1685's vision is to be known as the top of the market for all surf gear. The website allows surfers of every experience level to purchase items such as wetsuits, swimwear, and cover-ups, while ensuring quality and top-of-the-line trends.
   font_url: "https://use.typekit.net/iyq3xwy.css"
   colors:
-    background: "--color-primary-light: #fffdf6;"
-    accent: "--color-accent: #ee6352;"
+    background: "--color-primary-light"
+    accent: "--color-accent"
     patterns:
-      brand.logos: "--color-primary-light: #fffdf6;"
+      brand.logos: "--color-primary-light"
   rationales:
       typefaces.primary: |
         Brandon Grotesque was selected because it's a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website.
+      colors.primary: |
+        The primary colours represent the sand on a beach and sand dunes. They should be used for headers, footers, and buttons.
+      colors.secondary: |
+        The secondary colours continue with the natural, sea-themed tones. One is an even lighter shade of sand, and the other a deep blue, the colour of the bottom of the sea. They should be used for backgrounds and text, respectively.
