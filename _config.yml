@@ -11,5 +11,5 @@ patternbot:
     patterns:
       brand.logos: "--color-primary-light: #fffdf6;"
   rationales:
-      typefaces.primary:
+      typefaces.primary: |
         Brandon Grotesque was selected because it's a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website.
