@@ -1,0 +1,31 @@
+.btn {
+  background-color: var(--color-main-button);
+  border-color: var(--color-main-button);
+  color: var(--color-primary-light);
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-ghost {
+  border-color: var(--color-main-button);
+  background-color: transparent;
+  color: var(--color-secondary);
+  border-width: thin;
+}
+
+.btn-ghost:hover {
+  border-width: thick;
+}
+
+.btn-light {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.btn-light: hover {}
+
+}
