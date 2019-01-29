@@ -5,7 +5,7 @@
 }
 
 .btn:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
   border-color: var(--color-secondary);
 }
 
@@ -18,6 +18,8 @@
 
 .btn-ghost:hover {
   border-width: thick;
+  background-color: transparent;
+  border-color: var(--color-main-button);
 }
 
 .btn-light {
@@ -28,4 +30,5 @@
 
 .btn-light:hover {
   background-color: var(--color-main-button);
+  color: var(--color-primary-light);
 }
