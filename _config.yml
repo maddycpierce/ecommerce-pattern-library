@@ -19,3 +19,7 @@ patternbot:
         The secondary colour continues with the natural, sea-themed tones. It is a deep blue-the colour of the bottom of the sea. It should be used for and text.
       color.accent: |
         The accent colours are vibrant, slightly exaggerated colours of natural elements, such as a sunrise and seaweed. Each of the names are meant to remind the viewer of that element.
+      basic-button: |
+        The basic button should be used
+      button-ghost: |
+        The ghost button should be used on
