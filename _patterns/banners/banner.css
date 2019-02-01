@@ -1,3 +1,7 @@
 .wrapper {
   max-height: 500px;
 }
+
+.banner-content {
+  background-image: -webkit-linear-gradient(transparent, rgba(73, 85, 98, .9));
+}
