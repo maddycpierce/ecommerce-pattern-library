@@ -46,6 +46,10 @@ p {
   font-weight: 400;
 }
 
+.text-white {
+  color: var(--color-primary-light);
+}
+
 a {
   text-decoration: underline;
   color: var(--color-main-button);
