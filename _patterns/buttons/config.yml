@@ -9,3 +9,8 @@ patterns:
   light:
     description: |
       The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
+    width: 320
+  fields:
+     - name: text
+      type: string
+      example: "Shop Now"
