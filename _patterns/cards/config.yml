@@ -13,4 +13,4 @@ patterns:
         example: "surf1685-surf-bikini-top.jpg"
       - name: button_text
         type: string
-        example: "Shop Now"
+        example : "Shop Now"
