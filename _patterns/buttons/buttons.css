@@ -9,19 +9,6 @@
   border-color: var(--color-accent);
 }
 
-.btn-ghost {
-  border-color: var(--color-main-button);
-  background-color: transparent;
-  color: var(--color-secondary);
-  border-width: medium;
-}
-
-.btn-ghost:hover {
-  border-width: thick;
-  background-color: transparent;
-  border-color: var(--color-main-button);
-}
-
 .btn-light {
   background-color: var(--color-primary);
   border-color: var(--color-primary);

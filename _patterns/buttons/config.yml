@@ -1,0 +1,11 @@
+title: "Buttons"
+description: |
+  Several different button styles, each for different reasons.
+
+patterns:
+  basic:
+    description: |
+      The basic button should be used in almost all situations.
+  light:
+    description: |
+      The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.

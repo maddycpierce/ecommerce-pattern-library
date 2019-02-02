@@ -8,8 +8,6 @@ patternbot:
   colors:
     background: "--color-primary-light"
     accent: "--color-accent"
-    patterns:
-        header: "--color-primary"
   rationales:
       typefaces.primary: |
         Brandon Grotesque was selected because it's a geometric, smooth font that is designed for readability. The geometric elements contrast the smoothness of waves, while creating a modern look and feel for the website.
