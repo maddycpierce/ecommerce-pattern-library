@@ -18,6 +18,6 @@ patternbot:
       color.accent: |
         The accent colours are vibrant, slightly exaggerated colours of natural elements, such as a sunrise and seaweed. Each of the names are meant to remind the viewer of that element.
       basic-button: |
-        The basic button should be used
-      button-ghost: |
-        The ghost button should be used on
+        The basic button should be used in almost all situations.
+      button-light: |
+        The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.

@@ -1,5 +1,9 @@
+title: "Buttons"
+description: |
+  Cards are used to display content composed of different types of objects that are related. They are also well-suited for presenting photos and products with captions of variable lengths.
+
 patterns:
-  image-card:
+  product-card:
     width 400
     fields:
       - name: title
@@ -14,3 +18,5 @@ patterns:
       - name: button_text
         type: string
         example : "Shop Now"
+    description: |
+      The product card is the standard card for featuring products in the shop. The content is arrange in the order of: image, then the price below (if applicaple), and below that, the name of the product.

@@ -1,15 +1,16 @@
 title: "Buttons"
 description: |
-  Several different button styles, each for different reasons.
+  Buttons should be used in different situation where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
 
 patterns:
   basic:
     description: |
       The basic button should be used in almost all situations.
+      width: "12em"
   light:
     description: |
       The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
-    width: 320
+    width: "12em"
   fields:
      - name: text
       type: string
