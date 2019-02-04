@@ -63,6 +63,10 @@ ol > li {
   list-style-type: decimal-leading-zero;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 blockquote {
   color: var(--color-accent);
 }
