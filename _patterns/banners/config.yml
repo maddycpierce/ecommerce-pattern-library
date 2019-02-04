@@ -1,3 +1,19 @@
+title: "Banners"
+description: |
+  Banners are used to display
+
 patterns:
-  info-banner:
-    width 500
+  banner-hero:
+    width: 500
+    fields:
+      - name: title
+        type: string
+        example: "Beach days aren't far away"
+      - name: details
+        type: string
+        example: "New arrivals online now & in-stores 1.17"
+      - name: image
+        type: images
+        example: "info-banner.jpg"
+    description: |
+      The hero banner

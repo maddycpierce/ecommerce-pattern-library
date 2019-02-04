@@ -4,27 +4,27 @@ description: |
 
 patterns:
   product-card:
-    width 400
+    width: 400
     fields:
       - name: title
         type: string
         example: "Surf 1685 Surf Bikini Top"
       - name: details
         type: string
-        example: ""$65.00 CAD"
-      - name: images
+        example: "$65.00 CAD"
+      - name: image
         type: images
         example: "surf1685-surf-bikini-top.jpg"
       - name: button_text
         type: string
-        example : "Shop Now"
+        example: "Shop Now"
     description: |
       The product card is the standard card for featuring products in the shop. The content is arrange in the order of: image, then the price below (if applicaple), and below that, the name of the product.
 
   image-card:
-    width 400
+    width: 400
     fields:
-      - name: images
+      - name: image
         type: images
         example: "guy-surfing.jpg"
     description: |

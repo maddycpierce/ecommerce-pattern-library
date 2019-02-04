@@ -2,6 +2,8 @@
   background-color: var(--color-main-button);
   border-color: var(--color-main-button);
   color: var(--color-primary-light);
+  border-radius: 0;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -13,11 +15,13 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-secondary);
-  width: 815px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .btn-light:hover {
-  background-color: var(--color-main-button);
-  border-color: var(--color-main-button);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
   color: var(--color-primary-light);
 }
