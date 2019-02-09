@@ -1,0 +1,7 @@
+[type="checkbox"] + label::before {
+  background-color: transparent;
+  background-size: cover;
+  border: 1px solid var(--color-secondary);
+
+  line-height: inherit;
+}
