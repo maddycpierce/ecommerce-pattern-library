@@ -1,0 +1,51 @@
+input,
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary);
+  border-radius: 0;
+  padding-left: .5em;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 0;
+}
+
+input {
+  color: var(--color-secondary);
+}
+
+select {
+  background-size: 18px auto;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0;
+}
+
+select:input {
+  color: var(--color-primary-light);
+}
+
+[type="checkbox"] + label::before {
+  background-color: var(--color-primary-light);
+  background-size: cover;
+  border: 2px solid var(--color-secondary);
+
+  line-height: inherit;
+}
+
+fieldset {
+  border: none;
+}
