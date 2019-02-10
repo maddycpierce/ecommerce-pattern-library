@@ -9,31 +9,33 @@ patterns:
         type: string
         example: "I Agree"
     description: |
-      The checkbox is used to select from a set of one or more choices.
+      The checkbox is used to select multiple items.
+
   email-signup:
+    title: Email
     fields:
       - name: title
         type: string
         example: "Email Address (Where we will send your receipt and tracking info)"
-      - name: details
-        type: string
-        example: "Sign me up"
     description: |
-      The checkbox is used to select from a set of one or more choices.
+      This input field is to be used for emails only.
+
   fieldset:
     description: |
       The fieldset is used to clearly identify one section in a form from another.
-  form-dropdown:
+
+  select:
     width: 400
+    description: |
+      The user can select one option from a list.
+
   information-container:
     description: |
       The information container is used to inform the user about the shipping costs. The use of the different background colour allows for them to be able to easily scan the page to find out how much it will cost.
-  text-input:
+
+  basic-input:
     width: 450
     fields:
       - name: title
         type: string
         example: "Name"
-  quantity:
-    description: |
-    The user can select a quantity, with a counter available.
