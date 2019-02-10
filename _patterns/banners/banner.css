@@ -3,5 +3,22 @@
 }
 
 .banner-content {
-  background-image: -webkit-linear-gradient(transparent, rgba(73, 85, 98, .9));
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.banner-wrapper {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.transparent-background {
+  background-color: rgba(0,0,0,.4);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
