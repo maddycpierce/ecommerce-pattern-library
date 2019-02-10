@@ -57,6 +57,29 @@ fieldset {
   border: 3px solid var(--color-primary);
 }
 
-.uppercase {
-  text-transform: uppercase;
+/* Below are error message styles */
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-accent);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-error);
+  color: var(--color-accent);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-accent);
+  color: var(--color-primary-light);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
 }
