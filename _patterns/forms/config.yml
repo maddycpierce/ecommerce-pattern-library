@@ -34,3 +34,6 @@ patterns:
       - name: title
         type: string
         example: "Name"
+  quantity:
+    description: |
+    The user can select a quantity, with a counter available.
