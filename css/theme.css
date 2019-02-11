@@ -106,3 +106,7 @@ hr {
 .uppercase {
   text-transform: uppercase;
 }
+
+.nav > li {
+  text-decoration: none;
+}

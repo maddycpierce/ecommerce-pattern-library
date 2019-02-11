@@ -16,4 +16,10 @@ patterns:
         type: images
         example: "info-banner.jpg"
     description: |
-      The hero banner
+      The hero banner is a large banner image that is prominently place at the top of the web page. It presents an overview of the following products of the site.
+  main-banner:
+    description: |
+      The main banner is used on the home page of Surf 1685. It Draws the user in with its call-to-action, and presents the purpose of the site at a glance.
+  info-banner:
+    description: |
+      The info banner is used to direct attention to another part of the site, and is primarly used on the home page.

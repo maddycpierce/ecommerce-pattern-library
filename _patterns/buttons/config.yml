@@ -4,14 +4,13 @@ description: |
 
 patterns:
   basic:
+    width: "12em"
     description: |
       The basic button should be used in almost all situations.
-      width: "12em"
   light:
     description: |
       The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
-    width: "12em"
     fields:
       - name: text
         type: string
-        example: "Shop Now"
+        example: "WANT AN EXTRA 20% OFF? Refer a friend."

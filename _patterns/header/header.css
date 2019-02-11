@@ -1,3 +1,13 @@
 header {
   background-color: var(--color-primary);
 }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  display: inline;
+}
