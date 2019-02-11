@@ -40,3 +40,9 @@ patterns:
       - name: title
         type: string
         example: "Name"
+    description: |
+      The basic input is the most commonly used input and should be used in most situations.
+
+  form-error-message:
+    description: |
+      Error messages are visually displayed close to the field which has an error, and are accessible.
