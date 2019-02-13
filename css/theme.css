@@ -70,10 +70,6 @@ a {
   color: var(--color-main-button);
 }
 
-ul > li {
-  list-style-type: circle;
-}
-
 ol > li {
   list-style-type: decimal-leading-zero;
 }
@@ -123,4 +119,18 @@ hr {
 
 address {
   font-style: normal;
+}
+
+nav:hover {
+  color: var(--color-accent);
+}
+
+.sec-nav-item > ul {
+  list-style-type: none;
+}
+
+.sec-nav-item:hover {
+  color: var(--color-accent);
+  font-weight: 700;
+  background-color: var(--color-primary);
 }
