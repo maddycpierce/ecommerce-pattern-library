@@ -2,12 +2,71 @@ header {
   background-color: var(--color-primary);
 }
 
-.nav {
+.nav-left {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
-ul li a {
-  display: inline;
+.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.list-group {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+i,
+.icon-label {
+  text-align: center;
+}
+
+.logo,
+img {
+  display: block;
+  width: 5em;
+}
+@media only screen and (min-width: 25em) {
+
+  .nav-left {
+    float: left;
+    text-align: center;
+  }
+
+  .nav-right {
+    float: right;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  .nav-left {
+    float: left;
+  }
+
+  .nav-right {
+    float: right;
+  }
+
 }

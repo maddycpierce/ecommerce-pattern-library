@@ -51,12 +51,22 @@ p {
   font-weight: 400;
 }
 
+.nav-item {
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.icon-label {
+  text-decoration: none;
+}
+
 .text-white {
   color: var(--color-primary-light);
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--color-main-button);
 }
 
@@ -109,4 +119,8 @@ hr {
 
 .nav > li {
   text-decoration: none;
+}
+
+address {
+  font-style: normal;
 }

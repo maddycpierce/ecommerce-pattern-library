@@ -1,3 +1,9 @@
 title: "Footer"
 description: |
   The footer is to be placed at the bottom of every page of the website.
+
+patterns:
+  footer:
+    - name: text
+      type: string
+      example: "WANT AN EXTRA 20% OFF? Refer a friend."
