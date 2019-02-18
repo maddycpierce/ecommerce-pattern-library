@@ -70,6 +70,10 @@ a {
   color: var(--color-main-button);
 }
 
+a:focus {
+  outline: 3px solid var(--color-secondary);
+}
+
 ol > li {
   list-style-type: decimal-leading-zero;
 }
@@ -133,4 +137,15 @@ nav:hover {
   color: var(--color-accent);
   font-weight: 700;
   background-color: var(--color-primary);
+}
+
+/* Accessibility */
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
