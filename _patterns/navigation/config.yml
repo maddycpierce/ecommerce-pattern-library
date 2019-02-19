@@ -15,7 +15,7 @@ patterns:
   social-icon-nav:
     title: "Social Icon Navigation"
     description: |
-      The Social icon nav connects the user to Surf 1685's main social networks.
+      The Social icon nav is located in the footer. It connects the user to Surf 1685's main social networks.
   icon-navigation:
     title: "Icon Navigation"
     description: |

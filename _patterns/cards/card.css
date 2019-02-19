@@ -5,3 +5,7 @@
 .card:hover {
   background-color: var(--color-image-hover);
 }
+
+.card:focus {
+  outline: 3px solid #000;
+}
