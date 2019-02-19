@@ -1,6 +1,6 @@
 title: "Navigation"
 description: |
-  The navigation is used to guide the user through the website.
+  The navigations are used to guide the user through the website.
 
 patterns:
   secondary-nav:
@@ -8,3 +8,6 @@ patterns:
     width:
     description: |
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
+  details:
+      title: Details
+      description: The details section gives more information about the product.
