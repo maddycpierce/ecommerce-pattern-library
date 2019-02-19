@@ -129,7 +129,7 @@ nav:hover {
   color: var(--color-accent);
 }
 
-.sec-nav-item > ul {
+.sec-nav ul {
   list-style-type: none;
 }
 

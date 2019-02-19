@@ -5,5 +5,6 @@ description: |
 patterns:
   secondary-nav:
     title: Secondary Navigation
+    width:
     description: |
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
