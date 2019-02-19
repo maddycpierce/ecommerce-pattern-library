@@ -135,7 +135,6 @@ nav:hover {
 
 .sec-nav-item:hover {
   color: var(--color-accent);
-  font-weight: 700;
   background-color: var(--color-primary);
 }
 
@@ -148,4 +147,8 @@ nav:hover {
 
 .skip-links a:focus {
   top: 0;
+}
+
+ul > li::before {
+  content: none;
 }

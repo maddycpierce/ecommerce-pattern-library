@@ -1,3 +1,80 @@
-.sec-nav {
+.sec-nav-item {
   padding-left: 1em;
+}
+
+.pad-r {
+  padding-right: .25em;
+}
+
+.pad-l {
+  padding-left: .25em;
+}
+
+.swatch:focus {
+  outline: 3px solid var(--color-secondary);
+}
+
+.social-media {
+  display: inline-block;
+}
+
+.icon-item {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+}
+
+.icon-item:hover {
+  background-color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.hr-small {
+  width: inherit;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .details {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .details {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+}
+
+/* Error Messages */
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-accent);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-error);
+  color: var(--color-accent);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-accent);
+  color: var(--color-primary-light);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
 }

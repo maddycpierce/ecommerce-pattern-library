@@ -9,5 +9,14 @@ patterns:
     description: |
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
   details:
-      title: Details
-      description: The details section gives more information about the product.
+    title: "Details"
+    description: |
+      The details section gives more information about the product.
+  social-icon-nav:
+    title: "Social Icon Navigation"
+    description: |
+      The Social icon nav connects the user to Surf 1685's main social networks.
+  icon-navigation:
+    title: "Icon Navigation"
+    description: |
+      The icon navigation is located in the header. It connects the user the search bar, their favourite items, and their shopping bag.

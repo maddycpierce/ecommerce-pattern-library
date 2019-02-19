@@ -7,6 +7,9 @@ patterns:
     width: "12em"
     description: |
       The basic button should be used in almost all situations.
+  basic-long:
+    description: |
+      The basic long button is used to create extended buttons.
   light:
     description: |
       The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
