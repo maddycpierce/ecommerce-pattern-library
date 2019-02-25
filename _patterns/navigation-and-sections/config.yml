@@ -24,3 +24,10 @@ patterns:
     title: "Item Details"
     description: |
       The item details contain information on the product specifics.
+  ratings-and-reviews:
+    title: "Ratings and Reviews"
+    - name: text
+      type: string
+      example: "Write a Review"
+    description: |
+      In this section the user is able to view previous ratings and reviews or give their own.
