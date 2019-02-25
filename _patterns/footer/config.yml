@@ -4,6 +4,10 @@ description: |
 
 patterns:
   footer:
-    - name: text
-      type: string
-      example: "WANT AN EXTRA 20% OFF? Refer a friend."
+    fields:
+      - name: text
+        type: string
+        example: "WANT AN EXTRA 20% OFF? Refer a friend."
+      - name: button_text
+        type: string
+        example: "Let us know how we're doing. Feedback"

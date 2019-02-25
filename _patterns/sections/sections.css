@@ -1,0 +1,12 @@
+.heading-with-line {
+  position: relative;
+}
+
+.heading-with-line::after {
+  content: " ";
+  width: 7rem;
+  border-bottom: 1px solid black;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 3.5rem);
+}

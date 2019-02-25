@@ -5,6 +5,7 @@
   border-radius: 0;
   text-transform: uppercase;
   text-align: center;
+  padding: .85rem 1.5rem .85rem 1.5rem;
 }
 
 .btn-long {
@@ -23,6 +24,7 @@
   display: inline-block;
   width: 100%;
   text-align: center;
+
 }
 
 .btn-light:hover {
