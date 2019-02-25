@@ -1,6 +1,6 @@
-title: "Navigation"
+title: "Navigation and Sections"
 description: |
-  The navigations are used to guide the user through the website.
+  The navigation and sections are used to guide the user through the website.
 
 patterns:
   secondary-nav:
@@ -31,3 +31,7 @@ patterns:
       example: "Write a Review"
     description: |
       In this section the user is able to view previous ratings and reviews or give their own.
+  size:
+    title: "Size"
+    description: |
+      A dropdown that allows the user to choose the size of the product that they wish to purchase.
