@@ -11,7 +11,7 @@ patterns:
   details:
     title: "Details"
     description: |
-      The details section gives more information about the product.
+      The details section gives more information on the product cost, colours, and sizes available.
   social-icon-nav:
     title: "Social Icon Navigation"
     description: |
@@ -20,3 +20,7 @@ patterns:
     title: "Icon Navigation"
     description: |
       The icon navigation is located in the header. It connects the user the search bar, their favourite items, and their shopping bag.
+  item-details:
+    title: "Item Details"
+    description: |
+      The item details contain information on the product specifics.
