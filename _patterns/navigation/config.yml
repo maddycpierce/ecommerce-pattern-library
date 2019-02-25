@@ -8,8 +8,8 @@ patterns:
     width:
     description: |
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
-  details:
-    title: "Details"
+  product:
+    title: "Product"
     description: |
       The details section gives more information on the product cost, colours, and sizes available.
   social-icon-nav:
