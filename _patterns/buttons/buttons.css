@@ -12,7 +12,8 @@
   width: 100%;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
 }
@@ -27,8 +28,19 @@
 
 }
 
-.btn-light:hover {
+.btn-light:hover,
+.btn-light:focus {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
   color: var(--color-primary-light);
+}
+
+.btn-fav {
+  background-color: lightgrey;
+  border-color: lightgrey;
+}
+
+.btn-fav:focus {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }

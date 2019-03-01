@@ -25,19 +25,19 @@
     <p>Kelp</p>
   </div>
   <div class="grid push-1-2">
-    <div class="unit xs-3-4">
+    <div class="unit xs-3-4 pad-r">
       {% pattern navigation/size %}
     </div>
-    <div class="unit xs-1-4">
-
+    <div class="unit xs-1-4 pad-l align-bottom">
+      {% pattern buttons/favourite-button %}
     </div>
   </div>
   <div class="grid push-2">
     <div class="unit xs-1-2 pad-r">
-      {% pattern buttons/basic-long %}
+      {% pattern buttons/basic-long text=include.text-1 %}
     </div>
     <div class="unit xs-1-2 pad-l">
-      {% pattern buttons/basic-long %}
+      {% pattern buttons/basic-long text=include.text-2 %}
     </div>
   </div>
 

@@ -17,3 +17,6 @@ patterns:
       - name: text
         type: string
         example: "WANT AN EXTRA 20% OFF? Refer a friend."
+  favourite-button:
+    description: |
+      The favourite button is used to add an item to the user's collection of favourite products on the site.

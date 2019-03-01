@@ -10,6 +10,13 @@ patterns:
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
   product:
     title: "Product"
+    fields:
+      - name: text-1
+        type: string
+        example: "Add to Bag"
+      - name: text-2
+        type: string
+        example: "Find in Store"
     description: |
       The details section gives more information on the product cost, colours, and sizes available.
   social-icon-nav:

@@ -17,6 +17,7 @@ select {
 }
 
 a:focus,
+li:hover,
 [tabindex="0"]:focus,
 details:focus,
 summary:focus,

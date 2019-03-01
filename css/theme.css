@@ -74,6 +74,10 @@ a:focus {
   outline: 3px solid var(--color-secondary);
 }
 
+a:active {
+  color: var(--color-accent);
+}
+
 ol > li {
   list-style-type: decimal-leading-zero;
 }
