@@ -1,77 +1,92 @@
-header {
-  background-color: var(--color-primary);
-}
-
-.nav-left {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-
-.nav-right {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.list-group {
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-i,
-.icon-label {
-  text-align: center;
+h1 {
+  display: none;
 }
 
 .logo,
 img {
   display: inline-block;
-  width: 5em;
+  width: 4em;
+}
+
+header {
+  background-color: var(--color-primary);
+  padding: 1em;
+  text-align: left;
+  position: relative;
+}
+
+.icon-label-right {
+  padding-left: 1em;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: none;
+}
+
+.nav li a {
+  display: block;
+}
+
+.nav li:hover {
+  background-color: var(--color-image-hover);
+}
+
+.nav li a:hover {
+  background-color: var(--color-image-hover);
 }
 
 @media only screen and (min-width: 25em) {
 
-  .nav-left {
-    float: left;
-    text-align: center;
+  [type="checkbox"] + label::before {
+    position: absolute;
+    top: -7em;
   }
 
-  .nav-right {
-    float: right;
-    text-align: center;
+  .nav-check:checked ~ .nav {
+    display: block;
+  }
+
+  .nav-check:checked ~ .nav-label {
+    background-color: none;
+  }
+
+  .nav-open,
+  .nav-close {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .nav-close {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    float: left;
+    width: 25%;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
   header {
     overflow: hidden;
   }
 
-  .nav-left {
+  header h1 {
     float: left;
   }
 
-  .nav-right {
+  nav ul {
     float: right;
-  }
-
-  .wrapper {
-    padding-top: 5em;
   }
 
 }

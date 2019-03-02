@@ -123,6 +123,7 @@ hr {
 
 .nav > li {
   text-decoration: none;
+  padding: .5em;
 }
 
 address {
@@ -131,6 +132,12 @@ address {
 
 nav:hover {
   color: var(--color-accent);
+}
+
+.bold-caps {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-secondary);
 }
 
 .sec-nav ul {
