@@ -1,72 +1,66 @@
 <hr>
 
-<footer class="gutter-1-2" role="contentinfo">
-
-  <div class="grid push-2">
-    <div class="unit xs-1-2 pad-r">
-      {% pattern buttons/light text=include.text %}
-    </div>
-    <div class="unit xs-1-2 pad-l">
-      {% pattern buttons/light text=include.button_text %}
-    </div>
-  </div>
-
-  <div class="grid gutter-1-2">
-    <div class="unit xs-1">
-      <div class="grid">
-        <div class="unit xs-1 l-2-3">
-          <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <h4 class="push-none">Customer Care</h4>
-            <ul class="pad-left">
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Shipping Information</a></li>
-              <li><a href="#">Returns and Policy</a></li>
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">FAQs</a></li>
-            </ul>
-          </div>
-
-          <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <h4 class="push-none">Quick Links</h4>
-            <ul class="pad-left">
-              <li><a href="#">Store Locator</a></li>
-              <li><a href="#">Join Email List</a></li>
-              <li><a href="#">My Account</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1-3">
-          <div class="grid">
-            <div class="gutter-1-4 push unit xs-1 s-1 m-1 l-1 xl-1">
-              <address>
-                <h4 class="push-none">Surf 1685</h4>
-                <a href="https://www.google.com/maps/place/Honolulu,+HI,+USA/@21.3282956,-157.9391602,11z/data=!3m1!4b1!4m5!3m4!1s0x7c00183b8cc3464d:0x4b28f55ff3a7976c!8m2!3d21.3069444!4d-157.8583333">1441 Balua Blvd Ste 1114,<br>
-                Honolulu, HI<br>
-                96814-4406,<br>
-                US</a>
-              </address>
-            </div>
-            <div class="gutter-1-4 unit xs-1 s-1 m-12 l-1 xl-1">
-              {% pattern navigation/social-icon-nav %}
-            </div>
-          </div>
-        </div>
-
+<footer role="contentinfo">
+  <section class="gutter-1-2">
+    <div class="grid push">
+      <div class="unit [ xs-1 s-1 m-1-2 ] push-1-2 button-left">
+        {% pattern buttons/light text=include.text %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 ] button-right">
+        {% pattern buttons/light text=include.button_text %}
       </div>
     </div>
-  </div>
 
-  <h5>© Surf 1685</h5>
-  <a class="hangloose" href="#">
-    <i class="icon i-64">
-      <svg>
-        <use xlink:href="/images/logo-64.svg"/>
-        <title>Surf 1685 Hang Loose icon.</title>
-        <description>An icon of a hand that is giving the shaka or "hang-loose" hand sign. It is Hawaii's most well-known hand gesture, and is most commonly used to convey the aloha spirit as a motion or greeting of thanks.</description>
-      </svg>
-    </i>
-  </a>
+    <div class="grid gutter-1-2">
+
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+        <h4 class="push-none">Customer Care</h4>
+        <ul class="pad-left">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping Information</a></li>
+          <li><a href="#">Returns and Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+        <h4 class="push-none">Quick Links</h4>
+        <ul class="pad-left">
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">Join Email List</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+      </div>
+
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+        <div class="push">
+          <address>
+            <h4 class="push-none">Surf 1685</h4>
+            <a href="https://www.google.com/maps/place/Honolulu,+HI,+USA/@21.3282956,-157.9391602,11z/data=!3m1!4b1!4m5!3m4!1s0x7c00183b8cc3464d:0x4b28f55ff3a7976c!8m2!3d21.3069444!4d-157.8583333">1441 Balua Blvd Ste 1114,
+            <br>Honolulu, HI
+            <br>96814-4406,
+            US</a>
+          </address>
+        </div>
+      </div>
+
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+        <div class="push-2">
+          {% pattern navigation/social-icon-nav %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-bottom pad-t pad-b relative">
+    <h5 class="push-none milli">© Surf 1685 Management Co. All Rights Reserved.</h5>
+    <div class="island hangloose-container">
+      <a href="#">
+        <img class="hangloose" src="/images/logo-64.svg" alt="An icon of a hand that is giving the shaka or hang-loose hand sign."</img>
+      </a>
+    </div>
+  </section>
 
 </footer>
