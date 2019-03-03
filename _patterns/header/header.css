@@ -15,9 +15,6 @@ header {
   position: relative;
 }
 
-.icon-label-right {
-  padding-left: 1em;
-}
 
 .nav {
   margin: 0;
@@ -55,22 +52,44 @@ header {
 
   .nav-open,
   .nav-close {
-    display: block;
+    display: inline-block;
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  label {
+    float: right;
+    top: 1em;
   }
 
   .nav-close {
     display: none;
   }
 
+  .icon-label-right {
+    padding-left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
+  header {
+    overflow: hidden;
+  }
+
   nav li {
     float: left;
-    width: 25%;
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+  }
+
+  .icon-label-right {
+    padding-left: 0;
+    padding: .5em;
   }
 
 }
@@ -85,8 +104,10 @@ header {
     float: left;
   }
 
-  nav ul {
-    float: right;
+  .logo,
+  img {
+    display: inline-block;
+    width: 5em;
   }
 
 }
