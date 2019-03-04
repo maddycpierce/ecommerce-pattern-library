@@ -21,3 +21,6 @@ patternbot:
         The basic button should be used in almost all situations.
       button-light: |
         The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
+  layouts:
+    default: |
+      The default layout should be use for almost every page, it includes the website's header and footer.
