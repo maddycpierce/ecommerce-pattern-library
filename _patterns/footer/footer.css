@@ -1,13 +1,12 @@
 a .hangloose {
   width: 3rem;
-  bottom: 1px;
-  right: 1px;
 }
 
 .hangloose-container {
   position: absolute;
   right: 0;
-  bottom: -15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .footer-bottom {
