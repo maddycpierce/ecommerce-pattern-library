@@ -5,12 +5,12 @@ description: |
 patterns:
   banner-hero:
     fields:
-      - name: title
+      - name: heading
         type: string
-        example: "Beach days aren't far away"
-      - name: details
+        example: "Sun, Sand, and <br>Surf 1685"
+      - name: text
         type: string
-        example: "New arrivals online now & in-stores 1.17"
+        example: "What more could you want?"
       - name: image
         type: images
         example: "info-banner.jpg"
@@ -20,5 +20,14 @@ patterns:
     description: |
       The main banner is used on the home page of Surf 1685. It Draws the user in with its call-to-action, and presents the purpose of the site at a glance.
   info-banner:
+    - name: heading
+      type: string
+      example: "Beach days aren't far away"
+    - name: text
+      type: string
+      example: "New arrivals online now & in-stores 1.17"
+    - name: image
+      type: images
+      example: "info-banner.jpg"
     description: |
       The info banner is used to direct attention to another part of the site, and is primarly used on the home page.
