@@ -39,7 +39,6 @@ select {
   background-color: var(--color-primary);
   border: 2px solid var(--color-primary);
   border-radius: 0;
-
 }
 
 select:input {

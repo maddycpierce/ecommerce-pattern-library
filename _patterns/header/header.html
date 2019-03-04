@@ -10,48 +10,27 @@
     <label class="nav-label" for="nav-check">
       <i class="icon i-32"><svg class="nav-open"><use xlink:href="/images/icons.svg#hamburger"/><title>Open Navigation</title><description>Opens Navigation</description></svg></i>
     </label>
+
     <ul class="nav nav-left">
-      <li><a class="bold-caps main-nav" href="#">Men</a></li>
-      <li><a class="bold-caps main-nav" href="/women/">Women</a></li>
+      <li class="{% if page.highlight_nav == 'men' %}current{% endif %}"><a class="bold-caps main-nav" href="#">Men</a></li>
+      <li class="{% if page.highlight_nav == 'women' %}current{% endif %}"><a class="bold-caps main-nav" href="/women/">Women</a></li>
     </ul>
+
     <ul class="nav nav-right">
-      <li>
-        <a href="#">
-          <i class="icon i-16">
-            <svg>
-              <use xlink:href="/images/icons.svg#search"/>
-              <title>Search icon</title>
-              <description>A magnifying glass which indicates a search tool. Click to search for something on the Surf 1685 website.</description>
-            </svg>
-          </i>
-          <span class="icon-label-right micro">Search</span>
-        </a>
+      <li class="{% if page.highlight_nav == 'search' %}current{% endif %}"><a href="#"><i class="icon i-16"><svg><use xlink:href="/images/icons.svg#search"/>
+        <title>Search icon</title>
+        <description>A magnifying glass which indicates a search tool. Click to search for something on the Surf 1685 website.</description></svg></i>
+        <span class="icon-label-right micro">Search</span></a>
       </li>
-
-      <li>
-        <a href="#">
-          <i class="icon i-16">
-            <svg>
-              <use xlink:href="/images/icons.svg#favourite"/>
-              <title>Favourite icon</title>
-              <description>A shortcut icon that brings the user to a page of all of the items that they have indicated are their favourites.</description>
-            </svg>
-          </i>
-          <span class="icon-label-right micro">Favourites</span>
-        </a>
+      <li class="{% if page.highlight_nav == 'favourites' %}current{% endif %}"><a href="#"><i class="icon i-16"><svg><use xlink:href="/images/icons.svg#favourite"/>
+        <title>Favourite icon</title>
+        <description>A shortcut icon that brings the user to a page of all of the items that they have indicated are their favourites.</description></svg></i>
+        <span class="icon-label-right micro">Favourites</span></a>
       </li>
-
-      <li>
-        <a href="#">
-          <i class="icon i-16">
-            <svg>
-              <use xlink:href="/images/icons.svg#bag"/>
-              <title>My Bag icon</title>
-              <description>An icon that brings the user to a page that has all of the items that are in their online shopping bag.</description>
-            </svg>
-          </i>
-          <span class="icon-label-right micro">My Bag</span>
-        </a>
+      <li class="{% if page.highlight_nav == 'mybag' %}current{% endif %}"><a href="#"><i class="icon i-16"><svg><use xlink:href="/images/icons.svg#bag"/>
+        <title>My Bag icon</title>
+        <description>An icon that brings the user to a page that has all of the items that are in their online shopping bag.</description></svg></i>
+        <span class="icon-label-right micro">My Bag</span></a>
       </li>
     </ul>
 

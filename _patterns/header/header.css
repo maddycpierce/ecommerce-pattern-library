@@ -30,21 +30,29 @@ header {
   display: inline-block;
 }
 
+li:current {
+  border-bottom: solid black 1px;
+}
+
 .nav li:hover,
 .nav li a:hover {
   background-color: var(--color-image-hover);
 }
 
+.nav-label [type="checkbox"] + label::before {
+  content: none;
+}
+
 @media only screen and (min-width: 25em) {
 
-  label {
+  .nav-label {
     position: absolute;
     right: 20px;
     top: 80px;
     transform: translateY(-50px);
   }
 
-  [type="checkbox"] + label::before {
+  .nav-check type="checkbox"] + label::before {
     top: -10em;
   }
 

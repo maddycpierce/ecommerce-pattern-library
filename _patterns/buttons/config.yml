@@ -5,18 +5,35 @@ description: |
 patterns:
   basic:
     width: "12em"
+    fields:
+      - name: buttontext
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/women/"
     description: |
       The basic button should be used in almost all situations.
   basic-long:
+    fields:
+      - name: buttontext
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/"
     description: |
       The basic long button is used to create extended buttons.
   light:
-    description: |
-      The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
     fields:
-      - name: text
+      - name: buttontext
         type: string
         example: "WANT AN EXTRA 20% OFF? Refer a friend."
+      - name: url
+        type: url
+        example: "/"
+    description: |
+      The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
   favourite-button:
     description: |
       The favourite button is used to add an item to the user's collection of favourite products on the site.

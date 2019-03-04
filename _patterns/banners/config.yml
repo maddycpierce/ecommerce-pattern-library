@@ -13,13 +13,30 @@ patterns:
         example: "What more could you want?"
       - name: image
         type: images
-        example: "info-banner.jpg"
+        example: "sunset-surfer.jpg"
     description: |
       The hero banner is a large banner image that is prominently place at the top of the web page. It presents an overview of the following products of the site.
   main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Explore the Surf <br>Essentials Collection"
+      - name: text
+        type: string
+        example: "The must-haves of the season."
+      - name: image
+        type: images
+        example: "info-banner.jpg"
+      - name: button_text
+        type: string
+        example: "Shop Now"
+      - name: button_url
+        type: url
+        example: "/women/"
     description: |
       The main banner is used on the home page of Surf 1685. It Draws the user in with its call-to-action, and presents the purpose of the site at a glance.
   info-banner:
+    fields:
     - name: heading
       type: string
       example: "Beach days aren't far away"
