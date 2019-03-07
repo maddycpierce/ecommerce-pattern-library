@@ -4,6 +4,11 @@ h1 {
 
 .logo-wrapper {
   display: inline-block;
+  transition: .35s, scale, .35s;
+}
+
+.logo-wrapper:hover {
+  transform: scale(1.05);
 }
 
 .logo,
@@ -28,6 +33,7 @@ header {
 
 .nav li a {
   display: inline-block;
+  transition: .35s, scale, .35s;
 }
 
 li:current {
@@ -36,7 +42,7 @@ li:current {
 
 .nav li:hover,
 .nav li a:hover {
-  background-color: var(--color-image-hover);
+  transform: scale(1.05);
 }
 
 .nav-label [type="checkbox"] + label::before {

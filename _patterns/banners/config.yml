@@ -4,6 +4,7 @@ description: |
 
 patterns:
   banner-hero:
+    title: "Hero Banner"
     fields:
       - name: heading
         type: string
@@ -15,7 +16,7 @@ patterns:
         type: images
         example: "sunset-surfer.jpg"
     description: |
-      The hero banner is a large banner image that is prominently place at the top of the web page. It presents an overview of the following products of the site.
+      The hero banner is a large banner image that is prominently place at the top of the web page. It is used to showcase the brand and does not contain a call to action button.
   main-banner:
     fields:
       - name: heading
@@ -47,4 +48,4 @@ patterns:
       type: images
       example: "info-banner.jpg"
     description: |
-      The info banner is used to direct attention to another part of the site, and is primarly used on the home page.
+      The info banner is used to direct attention to another part of the site, and contains a call to action button.

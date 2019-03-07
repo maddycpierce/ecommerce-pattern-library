@@ -5,17 +5,23 @@
   border-radius: 0;
   text-transform: uppercase;
   text-align: center;
+  transition: background-color, .35s, scale, .35s;
+}
+
+.btn-basic {
   padding: .85rem 1.5rem .85rem 1.5rem;
 }
 
 .btn-long {
   width: 100%;
+  padding: .85rem 1.5rem .85rem 1.5rem;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
+  transform: scale(1.05);
 }
 
 .btn-light {
@@ -25,7 +31,7 @@
   display: inline-block;
   width: 100%;
   text-align: center;
-
+  padding: .85rem 1.5rem .85rem 1.5rem;
 }
 
 .btn-light:hover,
@@ -38,6 +44,7 @@
 .btn-fav {
   background-color: lightgrey;
   border-color: lightgrey;
+  padding: .6rem 1.5rem .6rem 1.5rem;
 }
 
 .btn-fav:focus {

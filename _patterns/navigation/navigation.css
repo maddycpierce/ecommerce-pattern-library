@@ -1,5 +1,6 @@
 .sec-nav-item {
   padding-left: 1em;
+  transition: background-color, .35s, scale, .35s;
 }
 
 .pad-r {
@@ -14,6 +15,15 @@
   outline: 3px solid var(--color-secondary);
 }
 
+.swatch-container {
+  background-color: transparent;
+  transition: background-color, .35s, .35s;
+}
+
+.swatch-container:hover {
+  background-color: var(--color-primary);
+}
+
 .social-media {
   display: inline-block;
 }
@@ -23,11 +33,13 @@
   padding-right: 1em;
   padding-bottom: 1.25em;
   padding-left: 1em;
+  transition: background-color, .35s, .35s;
 }
 
 .icon-item:hover {
   background-color: var(--color-primary);
   text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .hr-small {

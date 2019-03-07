@@ -10,7 +10,7 @@ patterns:
         type: string
         example: "I Agree"
     description: |
-      The checkbox is used to select multiple items.
+      The checkbox is used to select one or more items.
 
   email-signup:
     title: Email
