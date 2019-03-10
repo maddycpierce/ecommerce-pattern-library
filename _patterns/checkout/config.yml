@@ -1,3 +1,26 @@
 title: "Checkout"
 description: |
   The checkout is an overview of the items that are in the user's cart.
+patterns:
+  shopping-bag:
+    fields:
+      - name: title
+        type: string
+        example: "Kilauea Front-Zip Wetsuit Jacket"
+      - name: price-item
+        type: string
+        example: "$99.99 CAD"
+      - name: style-item
+        type: string
+        example: "10934"
+      - name: colour-item
+        type: string
+        example: "Coral"
+      - name: size-item
+        type: string
+        example: "8"
+      - name: qty-item
+        type: string
+        example: "1"
+    description: |
+      The .

@@ -11,3 +11,10 @@
 .card:focus {
   outline: 3px solid #000;
 }
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  width: 100%;
+}

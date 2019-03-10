@@ -1,0 +1,28 @@
+<h1 class="push-1-2">My Bag</h1>
+<h2>My Items</h2>
+<hr class="push-1-2 hr-small">
+<div class="grid">
+  <div class="unit [ xs-1 s-1 m-1-4 l-1-4 xl-1-4]">
+    <div class="card island-1-2">
+      <div class="embed embed-2by3">
+        <img class="img-flex embed-item" src="/images/{{include.image}}" alt="Image of the product in the user's shopping bag.">
+      </div>
+    </div>
+  </div>
+  <div class="unit [ xs-1 s-1 m-3-4 l-3-4 xl-3-4]">
+    <h5 class="push-none">{{include.title}}</h5>
+    <dl>
+      <dt>Price</dt>
+      <dd>{{include.price-item}}</dd>
+      <dt>Style</dt>
+      <dd>{{include.style-item}}</dd>
+      <dt>Colour</dt>
+      <dd>{{include.colour-item}}</dd>
+      <dt>Size</dt>
+      <dd>{{include.size-item}}</dd>
+      <dt>Quantity</dt>
+      <dd>{{include.qty-item}}</dd>
+    </dl>
+  </div>
+
+</div>

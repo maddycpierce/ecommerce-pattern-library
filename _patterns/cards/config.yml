@@ -26,6 +26,6 @@ patterns:
     fields:
       - name: image
         type: images
-        example: "guy-surfing.jpg"
+        example: "palm-tree-rows.jpg"
     description: |
       The image card is used for featuring images that people have posted on social media. They have either tagged #Surf1685, or tagged @Surf1685, or have done both. It is always in a square format.
