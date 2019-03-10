@@ -1,0 +1,26 @@
+<h2>Order Summary</h2>
+<hr class="push hr-small">
+<dl class="push gutter">
+  <dt class="inline-block">Merchandise:</dt>
+  <dd class="inline-block push-none">{{include.merchandise}}</dd><br>
+  <dt class="inline-block">Shipping:</dt>
+  <dd class="inline-block push-none">{{include.shipping}}</dd><br>
+  <dt class="inline-block">Duty:</dt>
+  <dd class="inline-block push-none">{{include.duty}}</dd><br>
+  <dt class="inline-block">Tax:</dt>
+  <dd class="inline-block push-none">{{include.tax}}</dd><br>
+</dl>
+<dl class="push-2 gutter">
+  <dt class="inline-block bold">Order Total:</dt>
+  <dd class="inline-block push-none bold">{{include.order-total}}</dd>
+</dl>
+
+<fieldset>
+  <legend></legend>
+
+  <div class="push">
+    <input id="giftreciept" type="checkbox">
+    <label for="giftreciept">Include Free Gift Reciept</label>
+  </div>
+
+</fieldset>

@@ -1,0 +1,11 @@
+.product-info {
+  display: inline-block;
+}
+
+.pad-l {
+  padding-right: 1em;
+}
+
+.pad-r {
+  padding-left: 1em;
+}

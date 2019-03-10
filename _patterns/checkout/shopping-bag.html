@@ -2,27 +2,32 @@
 <h2>My Items</h2>
 <hr class="push-1-2 hr-small">
 <div class="grid">
-  <div class="unit [ xs-1 s-1 m-1-4 l-1-4 xl-1-4]">
+  <div class="unit [ xs-1 s-1-4 m-1-4 l-1-4 xl-1-4]">
     <div class="card island-1-2">
       <div class="embed embed-2by3">
-        <img class="img-flex embed-item" src="/images/{{include.image}}" alt="Image of the product in the user's shopping bag.">
+        <img class="img-flex embed-item product-image" src="/images/{{include.image}}" alt="Image of the product in the user's shopping bag.">
       </div>
     </div>
   </div>
-  <div class="unit [ xs-1 s-1 m-3-4 l-3-4 xl-3-4]">
-    <h5 class="push-none">{{include.title}}</h5>
-    <dl>
-      <dt>Price</dt>
-      <dd>{{include.price-item}}</dd>
-      <dt>Style</dt>
-      <dd>{{include.style-item}}</dd>
-      <dt>Colour</dt>
-      <dd>{{include.colour-item}}</dd>
-      <dt>Size</dt>
-      <dd>{{include.size-item}}</dd>
-      <dt>Quantity</dt>
-      <dd>{{include.qty-item}}</dd>
+  <div class="unit [ xs-1 s-3-4 m-3-4 l-3-4 xl-3-4]">
+    <h4 class="push-1-2">{{include.title}}</h4>
+    <dl class="push">
+      <dt class="inline-block bold">Price:</dt>
+      <dd class="inline-block push-1-2">{{include.price-item}}</dd><br>
+      <dt class="inline-block">Style:</dt>
+      <dd class="inline-block push-none">{{include.style-item}}</dd><br>
+      <dt class="inline-block">Colour:</dt>
+      <dd class="inline-block push-none">{{include.colour-item}}</dd><br>
+      <dt class="inline-block">Size:</dt>
+      <dd class="inline-block push-none">{{include.size-item}}</dd><br>
+      <dt class="inline-block">Quantity:</dt>
+      <dd class="inline-block push-none">{{include.qty-item}}</dd>
     </dl>
+    <ul>
+      <li class="inline-block"><a href="#">Remove</a></li>
+      <li class="inline-block pad-l pad-r"><a href="#">Edit</a></li>
+      <li class="inline-block"><a href="#">Move to Favourites</a></li>
+    </ul>
   </div>
 
 </div>

@@ -1,8 +1,10 @@
-ratings-and-reviews:
-  title: "Ratings and Reviews"
-  fields:
-    - name: text
-      type: string
+
+patterns:
+  ratings-and-reviews:
+    title: "Ratings and Reviews"
+    description: |
+      In this section the user is able to view previous ratings and reviews or give their own.
+    fields:
+      - name: text
+        type: string
       example: "Write a Review"
-  description: |
-    In this section the user is able to view previous ratings and reviews or give their own.

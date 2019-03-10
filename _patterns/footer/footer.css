@@ -20,7 +20,7 @@ a .hangloose {
   width: 50%;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   .button-left {
     padding-right: .25em;

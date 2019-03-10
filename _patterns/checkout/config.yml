@@ -6,7 +6,7 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "Kilauea Front-Zip Wetsuit Jacket"
+        example: "Sea Breeze One-Piece Swim"
       - name: price-item
         type: string
         example: "$99.99 CAD"
@@ -22,5 +22,36 @@ patterns:
       - name: qty-item
         type: string
         example: "1"
+      - name: image
+        type: images
+        example: "sea-breeze-one-piece-swim.jpg"
     description: |
-      The .
+      The shopping bag section provides product information for the user to review before they purchase the item(s) in their bag.
+  sign-in:
+    title: "Sign In"
+    description: |
+      In this section the user is able easily sign in to their account or create a new one before they proceed to the check out.
+    fields:
+      - name: text
+        type: string
+        example: "Sign In"
+  order-summary:
+    title: "Order Summary"
+    description: |
+      The user can view a summary of the cost of the products that they are purchasing.
+    fields:
+      - name: merchandise
+        type: string
+        example: "$65.00 CAD"
+      - name: shipping
+        type: string
+        example: "$9.29 CAD"
+      - name: duty
+        type: string
+        example: "Free"
+      - name: tax
+        type: string
+        example: "$0.00 CAD"
+      - name: order-total
+        type: string
+        example: "$74.29 CAD"
