@@ -8,15 +8,16 @@ price: $99.99 CAD
 color:
   - "Coral"
 details:
-  - "Side cut outs"
-  - "Style 5609-1034"
+  - "Stylish top for warmer water temps"
+  - "Durable, flexible"
+  - "Fast drying"
+  - "Full-front corrosion-proof zipper"
+  - "Style: 5609-1034 | Colour: 809"
 material:
 materials and care:
-  - "100% Polyester"
-  - "Use a mild detergent and cool water"
+  - "Ultralite Superstretch Neoprene"
+  - "High-stretch Recycled Polyester Lining"
   - "Imported"
 size and fit:
-  - "Lightly padded"
-  - "Fully lined"
-  - "True to size"
+  - "Length hits above top of waistband"
 ---

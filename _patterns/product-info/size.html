@@ -1,0 +1,22 @@
+<section>
+  <form class="max-length" method="post" action="#" novalidate="">
+    {% pattern forms/form-error-message %}
+
+    <div>
+      <label class="gutter-1-2 push-1-8" for="size">Size</label>
+      <select id="size">
+        <option class="pad-left" value="">Select a Size</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+    </div>
+  </form>
+
+  <p class="error-message milli island-1-4 push-0" id="size-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error"/></svg></i>
+    <span class="icon-label">Please select a Size</span>
+  </p>
+</section>

@@ -14,3 +14,23 @@ patterns:
       - name: text
         type: string
         example: "White"
+  item-details:
+    title: "Item Details"
+    description: |
+      The item details contain information on the product specifics.
+  product:
+    title: "Product"
+    fields:
+      - name: text-1
+        type: string
+        example: "Add to Bag"
+      - name: text-2
+        type: string
+        example: "Find in Store"
+    description: |
+      The details section gives more information on the product cost, colours, and sizes available.
+  social-icon-nav:
+    size:
+      title: "Size"
+      description: |
+        A dropdown that allows the user to choose the size of the product that they wish to purchase.
