@@ -9,8 +9,8 @@ colors:
   - "Teal"
 details:
   - "Solid print"
+  - "Imported"
   - "Style 2345-8374"
-material:
 materials and care:
   - "78% Polyamide, 22% Elastane"
   - "Use a mild detergent and cool water"

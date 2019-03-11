@@ -10,11 +10,11 @@ colors:
 details:
   - "Side cut outs"
   - "Style 3427-9467"
-material:
 materials and care:
   - "100% Polyester"
   - "Use a mild detergent and cool water"
   - "Imported"
+  - "Style: 2474-6795"
 size and fit:
   - "Lightly padded"
   - "Fully lined"
