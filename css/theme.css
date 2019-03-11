@@ -149,6 +149,14 @@ nav:hover {
   background-color: var(--color-primary);
 }
 
+.pad-r {
+  padding-right: .25em;
+}
+
+.pad-l {
+  padding-left: .25em;
+}
+
 /* Accessibility */
 
 .skip-links a {

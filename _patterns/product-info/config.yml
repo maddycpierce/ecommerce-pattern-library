@@ -27,10 +27,12 @@ patterns:
       - name: text-2
         type: string
         example: "Find in Store"
+      - name: image
+        type: images
+        example: "coral.jpg"
     description: |
       The details section gives more information on the product cost, colours, and sizes available.
-  social-icon-nav:
-    size:
-      title: "Size"
-      description: |
-        A dropdown that allows the user to choose the size of the product that they wish to purchase.
+  size:
+    title: "Size"
+    description: |
+      A dropdown that allows the user to choose the size of the product that they wish to purchase.

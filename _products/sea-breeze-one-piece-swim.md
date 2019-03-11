@@ -9,7 +9,7 @@ colors:
   - "White"
 details:
   - "Side cut outs"
-  - "Style 5609-1034"
+  - "Style 3427-9467"
 material:
 materials and care:
   - "100% Polyester"

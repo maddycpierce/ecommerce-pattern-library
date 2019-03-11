@@ -7,6 +7,7 @@ patterns:
     title: Secondary Navigation
     description: |
       This secondary nav is located in the sidebar. It is content that is of secondary interest to the user.
+  social-icon-nav:
     title: "Social Icon Navigation"
     description: |
       The Social icon nav is located in the footer. It connects the user to Surf 1685's main social networks.

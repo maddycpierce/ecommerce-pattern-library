@@ -1,46 +1,14 @@
-.sec-nav-item {
-  padding-left: 1em;
-  transition: background-color, .35s, scale, .35s;
-}
-
-.social-media {
-  display: inline-block;
-}
-
-.icon-item {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1.25em;
-  padding-left: 1em;
-  transition: background-color, .35s, .35s;
-}
-
-.icon-item:hover {
-  background-color: var(--color-primary);
-  text-decoration: underline;
-  transform: scale(1.05);
-}
-
 .hr-small {
   width: inherit;
 }
 
-@media only screen and (min-width: 60em) {
-
-  .details {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
+.swatch-outline {
+  border: 1px solid var(--color-secondary);
 }
 
-@media only screen and (min-width: 90em) {
-
-  .details {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
+.swatch-container {
+  background-color: transparent;
+  transition: background-color, .35s, .35s;
 }
 
 /* Error Messages */

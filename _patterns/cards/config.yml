@@ -6,10 +6,15 @@ patterns:
   product-card:
     width: 400
     fields:
+      - name: data
+        object: object
+        data:
+          source: "site.products[0]"
+          type: Product
       - name: title
         type: string
         example: "Surf 1685 Surf Bikini Top"
-      - name: details
+      - name: price
         type: string
         example: "$65.00 CAD"
       - name: image
