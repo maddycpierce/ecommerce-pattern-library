@@ -32,3 +32,13 @@ patternbot:
       The default layout should be use for almost every page, it includes the website's header and footer.
     women: |
       The layout for women's swim should be used for the page that contains all of the women's swim products.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

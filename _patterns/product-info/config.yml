@@ -1,0 +1,16 @@
+title: "Product Information"
+description: |
+  The product information gives the user key details about the product that they are looking at.
+
+patterns:
+  product-colour:
+    title: Product Colour
+    description: |
+      The product colour shows which colours the product is available in.
+    fields:
+      - name: image
+        type: images
+        example: "white.jpg"
+      - name: text
+        type: string
+        example: "White"

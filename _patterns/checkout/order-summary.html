@@ -15,12 +15,4 @@
   <dd class="inline-block push-none bold">{{include.order-total}}</dd>
 </dl>
 
-<fieldset>
-  <legend></legend>
-
-  <div class="push">
-    <input id="giftreciept" type="checkbox">
-    <label for="giftreciept">Include Free Gift Reciept</label>
-  </div>
-
-</fieldset>
+{% pattern/forms/checkbox text=details.include %}

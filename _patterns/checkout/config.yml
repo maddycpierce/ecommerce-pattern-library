@@ -15,7 +15,7 @@ patterns:
         example: "10934"
       - name: colour-item
         type: string
-        example: "Coral"
+        example: "White"
       - name: size-item
         type: string
         example: "8"
@@ -24,7 +24,7 @@ patterns:
         example: "1"
       - name: image
         type: images
-        example: "sea-breeze-one-piece-swim.jpg"
+        example: "/products/sea-breeze-one-piece-swim.jpg"
     description: |
       The shopping bag section provides product information for the user to review before they purchase the item(s) in their bag.
   sign-in:
@@ -55,3 +55,6 @@ patterns:
       - name: order-total
         type: string
         example: "$74.29 CAD"
+      - name: details
+        type: string
+        example: "Include Free Gift Reciept"

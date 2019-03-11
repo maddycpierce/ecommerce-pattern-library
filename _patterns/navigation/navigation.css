@@ -11,17 +11,13 @@
   padding-left: .25em;
 }
 
-.swatch:focus {
-  outline: 3px solid var(--color-secondary);
+.swatch-outline {
+  border: 1px solid var(--color-secondary);
 }
 
 .swatch-container {
   background-color: transparent;
   transition: background-color, .35s, .35s;
-}
-
-.swatch-container:hover {
-  background-color: var(--color-primary);
 }
 
 .social-media {
