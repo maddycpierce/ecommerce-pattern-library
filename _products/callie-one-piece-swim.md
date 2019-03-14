@@ -3,7 +3,7 @@ name: "Callie One-Piece Swim"
 description: |
   Our one-piece bathing suit is comfortable and flattering.
 non_conflict: true
-image: "/images/products/callie-one-piece-swim.jpg"
+image: "/images/products/callie-one-piece.jpg"
 price: $65.00 CAD
 color:
   - "White"
