@@ -5,6 +5,8 @@ description: |
 patterns:
   product-card:
     width: 400
+    description: |
+      The product card is the standard card for featuring products in the shop. The content is arrange in the order of: image, then the price below (if applicable), and below that, the name of the product.
     fields:
       - name: data
         object: object
@@ -23,8 +25,6 @@ patterns:
       - name: button_text
         type: string
         example: "Shop Now"
-    description: |
-      The product card is the standard card for featuring products in the shop. The content is arrange in the order of: image, then the price below (if applicable), and below that, the name of the product.
 
   image-card:
     width: 400
