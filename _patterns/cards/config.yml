@@ -4,14 +4,13 @@ description: |
 
 patterns:
   product-card:
-    width: 400
     description: |
       The product card is the standard card for featuring products in the shop. The content is arrange in the order of: image, then the price below (if applicable), and below that, the name of the product.
     fields:
       - name: data
         object: object
         data:
-          source: "site.products[0]"
+          source: "site.womens-swim[0]"
           type: Product
       - name: title
         type: string
@@ -34,3 +33,16 @@ patterns:
         example: "palm-tree-rows.jpg"
     description: |
       The image card is used for featuring images that people have posted on social media. They have either tagged #Surf1685, or tagged @Surf1685, or have done both. It is always in a square format.
+
+  product-card-category:
+    description: |
+      The product card is the card used to show each product category.
+    fields:
+      - name: data
+        object: object
+        data:
+          source: "site.womens-swim[0]"
+          type: Product
+      - name: title
+        type: string
+        example: "Shop Women's Bathing Suits"
