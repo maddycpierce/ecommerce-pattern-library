@@ -3,14 +3,14 @@ layout: default
 ---
 
 {% pattern banners/main-banner button_url="/women/" heading="Explore the Surf <br>Essentials Collection" text="The must-haves of the season." image="info-banner.jpg" %}
-<div class="text-center pad-t pad-b">
+<div class="text-center pad-t">
   <h2>Shop by Category</h2>
 </div>
 
 <div class="grid gutter-1-4">
   {% for product in site.products %}
   <div class="unit [ xs-1 s-1 m-1-3 l-1-4 ]">
-    {% pattern cards/product-card data=product %}
+    {% pattern cards/product-card-category data=product %}
   </div>
   {% endfor %}
 </div>
@@ -18,6 +18,9 @@ layout: default
 {% pattern banners/info-banner heading="Beach days aren't far away" text="New arrivals online now & in-stores 1.17" image="info-banner.jpg" %}
 
 <div class="grid gutter-2 pad-t">
+  <div class="unit [ xs-1 s-1 m-1 l-1 ] text-center pad-t">
+    <h2>#Surf1685</h2>
+  </div>
   <div class="unit [ xs-1 s-1 m-1-3 l-1-3 ]">
     {% pattern cards/image-card image="guy-surfing.jpg" %}
   </div>

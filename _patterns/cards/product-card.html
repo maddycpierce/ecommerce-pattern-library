@@ -1,10 +1,8 @@
 <div class="card island-1-2">
-  <div class="embed embed-2by3">
-    <img class="img-flex embed-item" src="{{include.data.image}}" alt="An image of a product sold by Surf 1685.">
+  <div class="embed embed-2by3 push-none">
+    <img class="img-flex embed-item" src="{{include.data.image url=include.data.url}}" alt="An image of a product category sold by Surf 1685.">
   </div>
-  <div class="pad-t-1-2">
+  <div class="pad-t-1-4 pad-b-1-4">
     <h5 class="push-none">{{include.data.title}}</h5>
-    <p class="push-none">{{include.data.price}}</p>
-    {% pattern buttons/basic text="Buy Now" url=include.data.url %}
   </div>
 </div>

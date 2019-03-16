@@ -11,7 +11,7 @@ patterns:
         object: object
         data:
           source: "site.womens-swim[0]"
-          type: Product
+          type: Womens-swim
       - name: title
         type: string
         example: "Surf 1685 Surf Bikini Top"
@@ -41,8 +41,8 @@ patterns:
       - name: data
         object: object
         data:
-          source: "site.womens-swim[0]"
-          type: Product
+          source: "site.products[0]"
+          type: Category
       - name: title
         type: string
         example: "Shop Women's Bathing Suits"
