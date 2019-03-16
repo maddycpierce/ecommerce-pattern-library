@@ -20,7 +20,7 @@ patterns:
         example: "$65.00 CAD"
       - name: image
         type: images
-        example: "surf1685-surf-bikini-top.jpg"
+        example: "callie-one-piece.jpg"
       - name: button_text
         type: string
         example: "Shop Now"
@@ -46,3 +46,6 @@ patterns:
       - name: title
         type: string
         example: "Shop Women's Bathing Suits"
+      - name: image
+        type: images
+        example: "classic-surf-bikini-top.jpg"
