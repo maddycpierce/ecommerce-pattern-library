@@ -49,3 +49,6 @@ patterns:
       - name: image
         type: images
         example: "classic-surf-bikini-top.jpg"
+      - name: button_text
+        type: string
+        example: "View"

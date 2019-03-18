@@ -18,3 +18,8 @@
   overflow: hidden;
   width: 100%;
 }
+
+.card-img {
+  background-position: center center;
+  background-size: cover;
+}
