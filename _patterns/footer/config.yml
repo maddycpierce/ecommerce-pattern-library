@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Want an extra 20% off? Refer a friend."
+        example: "Refer a friend for an extra 20% off!"
       - name: button_text
         type: string
         example: "Do you have any feedback for us?"

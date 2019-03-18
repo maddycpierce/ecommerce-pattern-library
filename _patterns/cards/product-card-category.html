@@ -1,9 +1,7 @@
 <div class="card island-1-2">
-  <div class="card-img embed embed-2by3" style="background-image:url({{include.data.image}})">
-  </div>
+  <div class="card-img embed embed-2by3" style="background-image:url({{include.data.image}})"></div>
   <div class="pad-t-1-4">
-    <h5 class="push-none">{{include.data.name}}</h5>
-    <p class="push-none">{{include.data.price}}</p>
-    {% pattern buttons/basic button_text="View" url=include.data.product_url %}
+    <h5 class="pad-b-1-4 push-none">{{include.data.name}}</h5>
+    {% pattern buttons/basic button_text="View Collection" url=include.data.product_url %}
   </div>
 </div>

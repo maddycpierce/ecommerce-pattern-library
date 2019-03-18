@@ -36,9 +36,15 @@ patternbot:
 collections:
   products:
     output: true
+  womens-swim:
+    output: true
 
 defaults:
   - scope:
       path: _products
+    values:
+      layout: product
+  - scope:
+      path: _womens-swim
     values:
       layout: product

@@ -35,7 +35,7 @@ patterns:
         type: url
         example: "/women/"
     description: |
-      The main banner is used on the home page of Surf 1685. It Draws the user in with its call-to-action, and presents the purpose of the site at a glance.
+      The main banner is used on the home page of Surf 1685. It draws the user in with its call-to-action, and presents the context of the site at a glance.
   info-banner:
     fields:
     - name: heading
@@ -48,4 +48,4 @@ patterns:
       type: images
       example: "info-banner.jpg"
     description: |
-      The info banner is used to direct attention to another part of the site, and contains a call to action button.
+      The info banner is used to direct attention to another part of the site, and contains a call to action button. It should be used only once on a page, and should be located somewhere in the middle to act as a divider between content.

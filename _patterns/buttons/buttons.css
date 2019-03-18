@@ -21,7 +21,7 @@
 .btn:focus {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .btn-light {

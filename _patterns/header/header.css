@@ -8,7 +8,7 @@
 }
 
 .logo-wrapper:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .logo,
@@ -42,7 +42,7 @@ li:current {
 
 .nav li:hover,
 .nav li a:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .nav-label [type="checkbox"] + label::before {

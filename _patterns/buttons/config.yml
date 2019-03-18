@@ -6,7 +6,7 @@ patterns:
   basic:
     width: "12em"
     fields:
-      - name: buttontext
+      - name: button_text
         type: string
         example: "Shop Now"
       - name: url
@@ -16,17 +16,17 @@ patterns:
       The basic button should be used in almost all situations.
   basic-long:
     fields:
-      - name: buttontext
+      - name: button_text
         type: string
         example: "Shop Now"
       - name: url
         type: url
         example: "/"
     description: |
-      The basic long button is used to create extended buttons.
+      The basic long button is used to create extended buttons. It is only to be used when absolutely necessary. An example of this situation would be when the button is required to fill a space in order to balance a grid.
   light:
     fields:
-      - name: buttontext
+      - name: button_text
         type: string
         example: "WANT AN EXTRA 20% OFF? Refer a friend."
       - name: url
