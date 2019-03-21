@@ -36,3 +36,28 @@ patterns:
     title: "Size"
     description: |
       A dropdown that allows the user to choose the size of the product that they wish to purchase.
+    fields:
+      - name: title
+        type: string
+        example: "Size"
+      - name: placeholder
+        type: string
+        example: "Select a Size"
+      - name: option-1
+        type: string
+        example: "XS"
+      - name: option-2
+        type: string
+        example: "S"
+      - name: option-3
+        type: string
+        example: "M"
+      - name: option-4
+        type: string
+        example: "L"
+      - name: option-5
+        type: string
+        example: "XL"
+      - name: error-message
+        type: string
+        example: "Please select a Size"

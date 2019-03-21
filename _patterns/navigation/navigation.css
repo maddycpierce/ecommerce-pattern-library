@@ -32,6 +32,11 @@
     padding-right: 2rem;
   }
 
+  .sec-nav-title-small {
+    font-size: 1.9127rem;
+    line-height: 2.1rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
