@@ -1,5 +1,5 @@
 ---
-title: "Classic Surf Bikini Bottom"
+name: "Classic Surf Bikini Bottom"
 description: |
   Surf easy knowing that this bikini bottom is designed for sport wear.
 non_conflict: true

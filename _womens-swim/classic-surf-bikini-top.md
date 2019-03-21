@@ -1,5 +1,5 @@
 ---
-title: "Classic Surf Bikini Top"
+name: "Classic Surf Bikini Top"
 description: |
   High neck with solid colour design. Surf easy knowing that this bikini top is designed for sport wear, and can be worn as an athletic top or bikini.
 non_conflict: true
