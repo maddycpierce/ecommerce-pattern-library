@@ -4,6 +4,6 @@ patterns:
     description: |
       In this section the user is able to view previous ratings and reviews or give their own.
     fields:
-      - name: text
+      - name: button_text
         type: string
-      example: "Write a Review"
+        example: "Write a Review"

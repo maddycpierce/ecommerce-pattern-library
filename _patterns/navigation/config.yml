@@ -11,7 +11,11 @@ patterns:
     title: "Social Icon Navigation"
     description: |
       The Social icon nav is located in the footer. It connects the user to Surf 1685's main social networks.
-  icon-navigation:
-    title: "Icon Navigation"
+  introduction:
+    title: "Sample Paragraph"
     description: |
-      The icon navigation is located in the header. It connects the user the search bar, their favourite items, and their shopping bag.
+      Some introductory text for the website. To be used for long chunks of important text. An example of this would be on the home page, for an "About" section.
+    fields:
+      - name: intro-text
+        type: string
+        example: "Some introductory text for the website. To be used for long chunks of important text. Some introductory text for the website."

@@ -15,12 +15,12 @@ patterns:
 
   image-card:
     width: 400
+    description: |
+      The image card is used for featuring images that people have posted on social media. They have either tagged #Surf1685, or tagged @Surf1685, or have done both. It is always in a square format, is displayed on the home page only, and there are three of the images shown at a time.
     fields:
       - name: image
         type: images
         example: "palm-tree-rows.jpg"
-    description: |
-      The image card is used for featuring images that people have posted on social media. They have either tagged #Surf1685, or tagged @Surf1685, or have done both. It is always in a square format, is displayed on the home page only, and there are three of the images shown at a time.
 
   product-card-category:
     description: |

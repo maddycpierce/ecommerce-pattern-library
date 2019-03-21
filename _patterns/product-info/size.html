@@ -1,9 +1,9 @@
 <section>
-  <form class="max-length" method="post" action="#" novalidate="">
+  <form method="post" action="#" novalidate="">
     {% pattern forms/form-error-message %}
 
-    <div>
-      <label class="gutter-1-2 push-1-8" for="size">{{include.title}}</label>
+    <div class="custom-select">
+      <label class="push-1-8" for="size">{{include.title}}</label>
       <select id="size">
         <option class="pad-left" value="">{{include.placeholder}}</option>
         <option>{{include.option-1}}</option>

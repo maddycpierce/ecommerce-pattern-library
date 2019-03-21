@@ -11,6 +11,10 @@
   transition: background-color, .35s, .35s;
 }
 
+select {
+  padding-right: 1em;
+}
+
 /* Error Messages */
 
 .is-validated input:invalid,

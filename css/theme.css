@@ -165,6 +165,14 @@ nav:hover {
   padding-left: .25em;
 }
 
+.pad-l-wide {
+  padding-right: 1em;
+}
+
+.pad-r-wide {
+  padding-left: 1em;
+}
+
 /* Accessibility */
 
 .skip-links a {
@@ -178,4 +186,9 @@ nav:hover {
 
 ul > li::before {
   content: none;
+}
+
+select {
+  background-position: calc(100% - .9em) center;
+  border: var(--color-secondary);
 }

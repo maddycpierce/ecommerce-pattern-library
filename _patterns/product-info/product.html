@@ -7,18 +7,18 @@
 {% pattern product-info/product-colour image="coral.jpg" text="Coral.jpg" %}
 
   <div class="grid push-1-2">
-    <div class="unit xs-3-4 pad-r">
-      {% pattern product-info/size %}
+    <div class="unit xs-3-4 pad-l">
+      {% pattern product-info/size title="Size" placeholder="Select a Size" option-1="XS" option-2="S" option-3="M" option-4="L" option-5="XL" error-message="Please select a Size" %}
     </div>
-    <div class="unit xs-1-4 pad-l align-bottom pad-t">
+    <div class="unit xs-1-4 align-bottom pad-t">
       {% pattern buttons/favourite-button %}
     </div>
   </div>
   <div class="grid push-2">
-    <div class="unit xs-1-2 pad-r">
+    <div class="unit xs-1-2 pad-l">
       {% pattern buttons/basic-long text=include.text-1 %}
     </div>
-    <div class="unit xs-1-2 pad-l">
+    <div class="unit xs-1-2">
       {% pattern buttons/basic-long text=include.text-2 %}
     </div>
   </div>

@@ -18,8 +18,39 @@ patterns:
     title: "Item Details"
     description: |
       The item details contain information on the product specifics.
+    fields:
+      - name: details-1
+        type: string
+        example: "Side cut outs"
+      - name: details-2
+        type: string
+        example: "Anyone will look great in this!"
+      - name: details-3
+        type: string
+        example: "Style: 5609-1034"
+      - name: materials-1
+        type: string
+        example: "100% Polyester"
+      - name: materials-2
+        type: string
+        example: "Use a mild detergent and cool water"
+      - name: materials-3
+        type: string
+        example: "Imported"
+      - name: size-and-fit-1
+        type: string
+        example: "Lightly padded"
+      - name: size-and-fit-2
+        type: string
+        example: "Fully lined"
+      - name: size-and-fit-3
+        type: string
+        example: "True to size"
+
   product:
     title: "Product"
+    description: |
+      The details section gives more information on the product cost, colours, and sizes available.
     fields:
       - name: text-1
         type: string
@@ -30,8 +61,7 @@ patterns:
       - name: image
         type: images
         example: "coral.jpg"
-    description: |
-      The details section gives more information on the product cost, colours, and sizes available.
+
   size:
     title: "Size"
     description: |
