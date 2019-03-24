@@ -192,3 +192,7 @@ select {
   background-position: calc(100% - .9em) center;
   border: var(--color-secondary);
 }
+
+a:focus {
+  outline: 3px solid #000;
+}

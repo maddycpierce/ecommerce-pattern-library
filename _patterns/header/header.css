@@ -58,15 +58,15 @@ li:current {
     transform: translateY(-50px);
   }
 
-  .nav-check type="checkbox"] + label::before {
+  .nav-checked type="checkbox"] + label::before {
     top: -10em;
   }
 
-  .nav-check:checked ~ .nav {
+  .nav-checked:checked ~ .nav {
     display: block;
   }
 
-  .nav-check:checked ~ .nav-label {
+  .nav-checked:checked ~ .nav-label {
     background-color: none;
   }
 
@@ -123,11 +123,11 @@ li:current {
     padding: .5em;
   }
 
-  .nav-check + .nav-label {
+  .nav-checked + .nav-label {
     display: none;
   }
 
-  .nav-check ~ .nav {
+  .nav-checked ~ .nav {
     display: block;
   }
 
