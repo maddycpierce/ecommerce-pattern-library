@@ -52,6 +52,10 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 Created by Madeleine Pierce [@maddycpierce](https://github.com/maddycpierce), with help from Thomas J Bradley [@thomasjbradley](https://github.com/thomasjbradley). To report bugs or offer other assistance, visit [issues](https://github.com/maddycpierce/ecommerce-pattern-library/issues). To help create parts of this pattern library, follow the installation instructions above.
 
+## Collaborators
+
+- [@patricia568](https://github.com/patricia568)
+
 ---
 
 ## License & copyright
