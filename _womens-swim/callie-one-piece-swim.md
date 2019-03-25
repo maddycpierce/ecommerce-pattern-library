@@ -8,10 +8,8 @@ price: $65.00 CAD
 color:
   - "White"
 details:
-  - "100% Polyester"
-  - "Use a mild detergent and cool water"
-  - "Imported"
-  - "Style 4577-4568"
+  - "Comfy nylon with the right amount of stretch"
+  - "Style: 4577-4568"
 materials and care:
   - "100% Polyester"
   - "Use a mild detergent and cool water"

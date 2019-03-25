@@ -14,6 +14,7 @@ patterns:
       - name: colour
         type: string
         example: "White"
+
   item-details:
     title: "Item Details"
     description: |
@@ -21,13 +22,13 @@ patterns:
     fields:
       - name: details-1
         type: string
-        example: "Side cut outs"
+        example: "Comfy nylon with the right amount of stretch"
       - name: details-2
         type: string
-        example: "Anyone will look great in this!"
+        example: "Style: 4577-4568"
       - name: details-3
         type: string
-        example: "Style: 5609-1034"
+        example: ""
       - name: materials-1
         type: string
         example: "100% Polyester"
@@ -39,10 +40,10 @@ patterns:
         example: "Imported"
       - name: size-and-fit-1
         type: string
-        example: "Lightly padded"
+        example: "Super scoop neckline"
       - name: size-and-fit-2
         type: string
-        example: "Fully lined"
+        example: "Removable soft padding"
       - name: size-and-fit-3
         type: string
         example: "True to size"
