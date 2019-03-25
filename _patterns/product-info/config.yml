@@ -103,10 +103,10 @@ patterns:
     fields:
       - name: image-large
         type: images
-        example: "callie-one-piece.jpg"
+        example: "products/callie-one-piece.jpg"
       - name: image-small-1
         type: images
-        example: "callie-one-piece.jpg"
+        example: "products/callie-one-piece.jpg"
       - name: image-small-2
         type: images
-        example: "callie-one-piece.jpg"
+        example: "products/callie-one-piece.jpg"
