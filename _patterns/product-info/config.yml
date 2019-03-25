@@ -95,3 +95,18 @@ patterns:
       - name: error-message
         type: string
         example: "Please select a Size"
+
+  product-details-image:
+    title: Product Details image
+    description: |
+      This collection of images shows the product at different angles so that the user can get a good idea of what the product looks like before they consider buying it.
+    fields:
+      - name: image-large
+        type: images
+        example: "callie-one-piece.jpg"
+      - name: image-small-1
+        type: images
+        example: "callie-one-piece.jpg"
+      - name: image-small-2
+        type: images
+        example: "callie-one-piece.jpg"
