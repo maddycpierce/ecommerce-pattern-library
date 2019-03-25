@@ -1,14 +1,14 @@
 <section class="details gutter pad-t">
-  <h1 class="push-0">Sea Breeze One-Piece Swim</h1>
+  <h1 class="push-0">Callie One-Piece Swim</h1>
   <h6 class="push-1-2">New</h6>
-  <h5>$99.99 CAD</h5>
+  <h5>$65.99 CAD</h5>
   <hr>
 
-{% pattern product-info/product-colour image="coral.jpg" text="Coral.jpg" %}
+{% pattern product-info/product-colour image="white.jpg" colour="White" %}
 
   <div class="grid push-1-2">
     <div class="unit xs-3-4 pad-l">
-      {% pattern product-info/size title="Size" placeholder="Select a Size" option-1="XS" option-2="S" option-3="M" option-4="L" option-5="XL" error-message="Please select a Size" %}
+      {% pattern product-info/size title="Size" placeholder="Select a Size" option-1="XS" option-2="S" option-3="M" option-4="L" option-5="XL" %}
     </div>
     <div class="unit xs-1-4 align-bottom pad-t">
       {% pattern buttons/favourite-button %}
@@ -16,10 +16,10 @@
   </div>
   <div class="grid push-2">
     <div class="unit xs-1-2 pad-l">
-      {% pattern buttons/basic-long text=include.text-1 %}
+      {% pattern buttons/basic-long button_text="Add to Bag" %}
     </div>
     <div class="unit xs-1-2">
-      {% pattern buttons/basic-long text=include.text-2 %}
+      {% pattern buttons/basic-long button_text="Find in Store" %}
     </div>
   </div>
 

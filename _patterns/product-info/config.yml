@@ -11,7 +11,7 @@ patterns:
       - name: image
         type: images
         example: "white.jpg"
-      - name: text
+      - name: colour
         type: string
         example: "White"
   item-details:
@@ -60,7 +60,10 @@ patterns:
         example: "Find in Store"
       - name: image
         type: images
-        example: "coral.jpg"
+        example: "white.jpg"
+      - name: colour
+        type: images
+        example: "white.jpg"
 
   size:
     title: "Size"
