@@ -40,3 +40,20 @@ patterns:
       - name: button_text
         type: string
         example: "View Collection"
+
+  recently-viewed:
+    title: "Recently Viewed"
+    description: |
+      The "recently viewed" card is used exclusively on the product details page. It features the products that the user has most recently viewed on the site and is located beneath the Ratings & Reviews section.
+    fields:
+      - name: data
+        object: object
+        data:
+          source: "site.womens-swim[0]"
+          type: Category
+      - name: title
+        type: string
+        example: "High Heights One-Piece Swim"
+      - name: image
+        type: images
+        example: "high-heights-one-piece-swim.jpg"
