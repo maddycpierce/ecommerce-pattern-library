@@ -5,3 +5,19 @@ layout: default
 <h1>{{page.name}}</h1>
 <p>{{page.description}}</p>
 <img src="{{page.image}}" alt="">
+
+<div class="grid island">
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-2">
+    {% pattern product-info/product-details-image image-large="products/callie-one-piece.jpg" image-small-1="products/callie-one-piece.jpg" image-small-2="products/callie-one-piece.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-2">
+    {% pattern product-info/product text-1="Add to Bag" text-2="Find in Store" image="white.jpg" colour="white.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-2">
+    {% pattern product-info/item-details details-1="Comfy nylon with the right amount of stretch" details-2="Style: 4577-4568" details-3="" materials-1="100% Polyester" materials-2="Use a mild detergent and cool water" materials-3="Imported" size-and-fit-1="Super scoop neckline" size-and-fit-2="Removable soft padding" size-and-fit-3="True to size" %}
+  </div>
+  <br>
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-2">
+    {% pattern sections/ratings-and-reviews button_text="Write a Review" %}
+  </div>
+</div>
