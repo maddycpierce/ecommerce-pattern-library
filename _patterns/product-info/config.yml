@@ -6,7 +6,7 @@ patterns:
   product-colour:
     title: Product Colour
     description: |
-      The product colour shows which colours the product is available in.
+      The product colour shows which colours the product is available in. It is located on the product details page.
     fields:
       - name: image
         type: images
@@ -18,7 +18,7 @@ patterns:
   item-details:
     title: "Item Details"
     description: |
-      The item details contain information on the product specifics.
+      The item details contains information on the product specifics. It is located on the product details page.
     fields:
       - name: details-1
         type: string
@@ -49,9 +49,9 @@ patterns:
         example: "True to size"
 
   product:
-    title: "Product"
+    title: "Product Information"
     description: |
-      The details section gives more information on the product cost, colours, and sizes available.
+      The product information section gives more information on the product cost, colours, and sizes available. The user can find this on the product details page.
     fields:
       - name: text-1
         type: string
@@ -69,7 +69,7 @@ patterns:
   size:
     title: "Size"
     description: |
-      A dropdown that allows the user to choose the size of the product that they wish to purchase.
+      This dropdown that allows the user to choose the size of the product that they wish to purchase. It all of the content can be replaced so that it can also be used as a filter, or another necessary dropdown. It is located on the product details page, and on the products page.
     fields:
       - name: title
         type: string
