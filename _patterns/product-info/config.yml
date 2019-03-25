@@ -110,3 +110,6 @@ patterns:
       - name: image-small-2
         type: images
         example: "products/callie-one-piece.jpg"
+      - name: image-small-3
+        type: images
+        example: "products/callie-one-piece.jpg"
