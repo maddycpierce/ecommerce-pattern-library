@@ -20,17 +20,19 @@ layout: default
   <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-2">
     {% pattern sections/ratings-and-reviews button_text="Write a Review" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-    <div class="grid grid-middle wrapper">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        {% pattern cards/recently-viewed data=Category title="Sea Breeze One Piece Swim" image="sea-breeze-one-piece-swim.jpg" %}
-      </div>
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        {% pattern cards/recently-viewed data=Category title="Classic Surf Bikini Top" image="classic-surf-bikini-top.jpg" %}
-      </div>
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        {% pattern cards/recently-viewed data=Category title="High Heights One-Piece Swim" image="high-heights-one-piece-swim.jpg" %}
-      </div>
-    </div>
+</div>
+<div class="grid">
+  <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 text-center push">Recently Viewed</h2>
+  <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 hidden push-2">
+    {% pattern cards/recently-viewed title="Classic Surf Bikini Top" image="/products/classic-surf-bikini-top.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 push-2">
+    {% pattern cards/recently-viewed title="High Heights One-Piece Swim" image="/products/high-heights-one-piece-swim.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 push-2">
+    {% pattern cards/recently-viewed title="Sea Breeze One Piece Swim" image="/products/sea-breeze-one-piece-swim.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 push-2">
+    {% pattern cards/recently-viewed title="Classic Surf Bikini Top" image="/products/classic-surf-bikini-top.jpg" %}
   </div>
 </div>
