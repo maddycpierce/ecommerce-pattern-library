@@ -35,7 +35,6 @@ patterns:
       The information container is used to inform the user about the shipping costs. The use of the different background colour allows for them to be able to easily scan the page to find out how much it will cost.
 
   basic-input:
-    width: 450
     fields:
       - name: title
         type: string
