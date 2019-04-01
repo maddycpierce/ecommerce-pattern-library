@@ -22,4 +22,5 @@ size and fit:
   - "Thin straps"
   - "Removable soft padding"
   - "Super hi cut leg"
+product_url: "/womens-swim/high-heights-one-piece-swim"
 ---

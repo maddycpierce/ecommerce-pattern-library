@@ -21,4 +21,5 @@ size and fit:
   - "Open, dropped armhole"
   - "Removable soft padding"
   - "Super hi cut leg"
+product_url: "/womens-swim/hadley-one-piece-swim"
 ---

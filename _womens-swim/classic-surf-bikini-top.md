@@ -19,4 +19,5 @@ size and fit:
   - "Scoop Neckline"
   - "Removable soft padding"
   - "True to size"
+product_url: "/womens-swim/classic-surf-bikini-top"
 ---

@@ -20,4 +20,5 @@ size and fit:
   - "Fully lined"
   - "True to size"
   - "High-cut bottoms"
+product_url: "/womens-swim/julia-one-piece-swim"
 ---

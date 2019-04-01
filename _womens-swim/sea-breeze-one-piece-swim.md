@@ -19,4 +19,5 @@ size and fit:
   - "Lightly padded"
   - "Fully lined"
   - "True to size"
+product_url: "/womens-swim/sea-breeze-one-piece-swim"
 ---
