@@ -55,6 +55,7 @@ Created by Madeleine Pierce [@maddycpierce](https://github.com/maddycpierce), wi
 ## Collaborators
 
 - [@patricia568](https://github.com/patricia568)
+- [@natduboiss](https://github.com/natduboiss)
 
 ---
 
