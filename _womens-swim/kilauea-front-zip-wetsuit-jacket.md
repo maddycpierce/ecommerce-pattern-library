@@ -20,4 +20,5 @@ materials and care:
   - "Imported"
 size and fit:
   - "Length hits above top of waistband"
+product_url: "/womens-swim/kilauea-front-zip-wetsuit-jacket"
 ---

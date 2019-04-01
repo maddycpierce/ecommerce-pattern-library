@@ -20,4 +20,5 @@ size and fit:
   - "Thin straps"
   - "Removable soft padding"
   - "Super hi cut leg"
+product_url: "/womens-swim/callie-one-piece-swim"
 ---

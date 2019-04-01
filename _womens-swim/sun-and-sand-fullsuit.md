@@ -19,4 +19,5 @@ materials and care:
   - "Imported"
 size and fit:
   - "Full-length fullsuit"
+product_url: "/womens-swim/sun-and-sand-fullsuit"
 ---

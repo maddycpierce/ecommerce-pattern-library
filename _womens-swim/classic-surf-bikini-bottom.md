@@ -18,4 +18,5 @@ materials and care:
 size and fit:
   - "Bikini Cut"
   - "True to size"
+product_url: "/womens-swim/classic-surf-bikini-bottom"
 ---
