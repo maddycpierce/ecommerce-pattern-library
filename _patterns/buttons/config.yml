@@ -11,7 +11,7 @@ patterns:
         example: "Shop Now"
       - name: url
         type: url
-        example: "/women/"
+        example: "/womens-swim/"
     description: |
       The basic button should be used in almost all situations.
   basic-long:
