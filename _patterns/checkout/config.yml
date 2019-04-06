@@ -3,6 +3,7 @@ description: |
   The checkout is an overview of the items that are in the user's cart.
 patterns:
   shopping-bag:
+    title: "Shopping Bag"
     fields:
       - name: title
         type: string

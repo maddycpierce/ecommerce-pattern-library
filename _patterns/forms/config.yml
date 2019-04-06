@@ -3,8 +3,8 @@ description: |
   Forms are used to fill out information in order to purchase products from Surf 1685. They are also used to subscribe to recieving promotional emails.
 
 patterns:
-
   checkbox:
+    title: "Checkbox"
     fields:
       - name: details
         type: string
@@ -13,7 +13,7 @@ patterns:
       The checkbox is used to select one or more items.
 
   email-signup:
-    title: Email
+    title: Email Signup
     fields:
       - name: title
         type: string
@@ -22,6 +22,7 @@ patterns:
       This input field is to be used for emails only.
 
   fieldset:
+    title: "Fieldset"
     description: |
       The fieldset is used to clearly identify one section in a form from another.
     fields:
@@ -30,53 +31,53 @@ patterns:
         example: "Contact Info"
 
   select:
-    width: 400
+    title: "Dropdown"
     description: |
       The user can select one option from a list.
     fields:
-    - name: title
-      type: string
-      example: "Province"
-      - name: title
+      - name: title-1
+        type: string
+        example: "Province"
+      - name: placeholder-1
         type: string
         example: "Select a Province"
-      - name: option-1
+      - name: option_1
         type: string
         example: "Alberta"
-      - name: option-2
+      - name: option_2
         type: string
         example: "British Columbia"
-      - name: option-3
+      - name: option_3
         type: string
         example: "Manitoba"
-      - name: option-4
+      - name: option_4
         type: string
         example: "New Brunswick"
-      - name: option-5
+      - name: option_5
         type: string
         example: "Newfoundland & Labrador"
-      - name: option-6
+      - name: option_6
         type: string
         example: "Northwest Territories"
-      - name: option-7
+      - name: option_7
         type: string
         example: "Nova Scotia"
-      - name: option-8
+      - name: option_8
         type: string
         example: "Nunavut"
-      - name: option-9
+      - name: option_9
         type: string
         example: "Ontario"
-      - name: option-10
+      - name: option_10
         type: string
         example: "Prince Edward Island"
-      - name: option-11
+      - name: option_11
         type: string
         example: "Québec"
-      - name: option-12
+      - name: option_12
         type: string
         example: "Saskatchewan"
-      - name: option-13
+      - name: option_13
         type: string
         example: "Yukon"
       - name: error-message
@@ -84,6 +85,7 @@ patterns:
         example: "Please select a Province"
 
   information-container:
+    title: "Information Container"
     description: |
       The information container is used to inform the user about the shipping costs. The use of the different background colour allows for them to be able to easily scan the page to find out how much it will cost.
     fields:
@@ -95,6 +97,7 @@ patterns:
         example: "$9.25 CAD Shipping"
 
   basic-input:
+    title: "Basic Input"
     fields:
       - name: title
         type: string
@@ -103,5 +106,6 @@ patterns:
       The basic input is the most commonly used input and should be used in most situations.
 
   form-error-message:
+    title: "Form Error Message"
     description: |
       Error messages are visually displayed close to the field which has an error, and are accessible.
