@@ -24,6 +24,10 @@ patterns:
   fieldset:
     description: |
       The fieldset is used to clearly identify one section in a form from another.
+    fields:
+      - name: title
+        type: string
+        example: "Contact Info"
 
   select:
     width: 400
@@ -33,6 +37,13 @@ patterns:
   information-container:
     description: |
       The information container is used to inform the user about the shipping costs. The use of the different background colour allows for them to be able to easily scan the page to find out how much it will cost.
+    fields:
+      - name: arrival
+        type: string
+        example: "Arrives by February 04"
+      - name: arrival
+        type: string
+        example: "$9.25 CAD Shipping"
 
   basic-input:
     fields:
