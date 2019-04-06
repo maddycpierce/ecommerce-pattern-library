@@ -4,7 +4,7 @@ description: |
 
 patterns:
   product-colour:
-    title: Product Colour
+    title: "Product Colour"
     description: |
       The product colour shows which colours the product is available in. It is located on the product details page.
     fields:
@@ -97,7 +97,7 @@ patterns:
         example: "Please select a Size"
 
   product-details-image:
-    title: Product Details image
+    title: "Product Details: Image"
     description: |
       This collection of images shows the product at different angles so that the user can get a good idea of what the product looks like before they consider buying it.
     fields:

@@ -4,6 +4,7 @@ description: |
 
 patterns:
   basic:
+    title: "Basic"
     width: "12em"
     fields:
       - name: button_text
@@ -15,6 +16,7 @@ patterns:
     description: |
       The basic button should be used in almost all situations.
   basic-long:
+    title: "Basic Long"
     fields:
       - name: button_text
         type: string
@@ -25,6 +27,7 @@ patterns:
     description: |
       The basic long button is used to create extended buttons. It is only to be used when absolutely necessary. An example of this situation would be when the button is required to fill a space in order to balance a grid.
   light:
+    title: "Light"
     fields:
       - name: button_text
         type: string
@@ -35,5 +38,6 @@ patterns:
     description: |
       The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
   favourite-button:
+    title: "Favourite Button"
     description: |
       The favourite button is used to add an item to the user's collection of favourite products on the site.
