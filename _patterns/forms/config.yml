@@ -33,6 +33,55 @@ patterns:
     width: 400
     description: |
       The user can select one option from a list.
+    fields:
+    - name: title
+      type: string
+      example: "Province"
+      - name: title
+        type: string
+        example: "Select a Province"
+      - name: option-1
+        type: string
+        example: "Alberta"
+      - name: option-2
+        type: string
+        example: "British Columbia"
+      - name: option-3
+        type: string
+        example: "Manitoba"
+      - name: option-4
+        type: string
+        example: "New Brunswick"
+      - name: option-5
+        type: string
+        example: "Newfoundland & Labrador"
+      - name: option-6
+        type: string
+        example: "Northwest Territories"
+      - name: option-7
+        type: string
+        example: "Nova Scotia"
+      - name: option-8
+        type: string
+        example: "Nunavut"
+      - name: option-9
+        type: string
+        example: "Ontario"
+      - name: option-10
+        type: string
+        example: "Prince Edward Island"
+      - name: option-11
+        type: string
+        example: "Québec"
+      - name: option-12
+        type: string
+        example: "Saskatchewan"
+      - name: option-13
+        type: string
+        example: "Yukon"
+      - name: error-message
+        type: string
+        example: "Please select a Province"
 
   information-container:
     description: |

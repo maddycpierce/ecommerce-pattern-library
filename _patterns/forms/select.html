@@ -2,27 +2,27 @@
 {% pattern forms/form-error-message %}
 
   <div>
-    <label class="gutter-1-2 push-1-8" for="province">Province</label>
+    <label class="gutter-1-2 push-1-8" for="province">{{include.title}}Province</label>
     <select id="province">
-      <option class="pad-left" value="">Select a Province</option>
-      <option>Alberta</option>
-      <option>British Columbia</option>
-      <option>Manitoba</option>
-      <option>New Brunswick</option>
-      <option>Newfoundland & Labrador</option>
-      <option>Northwest Territories</option>
-      <option>Nova Scotia</option>
-      <option>Nunavut</option>
-      <option>Ontario</option>
-      <option>Prince Edward Island</option>
-      <option>Québec</option>
-      <option>Saskatchewan</option>
-      <option>Yukon</option>
+      <option class="pad-left" value="">{{include.subtitle}}</option>
+      <option>{{include.option-1}}</option>
+      <option>{{include.option-2}}</option>
+      <option>{{include.option-3}}</option>
+      <option>{{include.option-4}}</option>
+      <option>{{include.option-5}}</option>
+      <option>{{include.option-6}}</option>
+      <option>{{include.option-7}}</option>
+      <option>{{include.option-8}}</option>
+      <option>{{include.option-9}}</option>
+      <option>{{include.option-10}}</option>
+      <option>{{include.option-11}}</option>
+      <option>{{include.option-12}}</option>
+      <option>{{include.option-13}}</option>
     </select>
   </div>
 </form>
 
 <p class="error-message milli island-1-4 push-0" id="province-error">
   <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error"/></svg></i>
-  <span class="icon-label">Please select a Province</span>
+  <span class="icon-label">{{include.error-message}}</span>
 </p>
