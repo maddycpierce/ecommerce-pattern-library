@@ -56,6 +56,3 @@ patterns:
       - name: order-total
         type: string
         example: "$74.29 CAD"
-      - name: details
-        type: string
-        example: "Include Free Gift Reciept"
