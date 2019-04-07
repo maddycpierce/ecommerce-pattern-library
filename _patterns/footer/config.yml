@@ -5,9 +5,9 @@ description: |
 patterns:
   footer:
     fields:
-      - name: text
+      - name: button_left
         type: string
         example: "Refer a friend for an extra 20% off!"
-      - name: button_text
+      - name: button_right
         type: string
         example: "Do you have any feedback for us?"

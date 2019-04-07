@@ -4,6 +4,8 @@ description: |
 patterns:
   shopping-bag:
     title: "Shopping Bag"
+    description: |
+      The shopping bag section provides product information for the user to review before they purchase the item(s) in their bag.
     fields:
       - name: title
         type: string
@@ -26,16 +28,16 @@ patterns:
       - name: image
         type: images
         example: "/products/sea-breeze-one-piece-swim.jpg"
-    description: |
-      The shopping bag section provides product information for the user to review before they purchase the item(s) in their bag.
+
   sign-in:
     title: "Sign In"
     description: |
       In this section the user is able easily sign in to their account or create a new one before they proceed to the check out.
     fields:
-      - name: text
+      - name: button_text_1
         type: string
         example: "Sign In"
+
   order-summary:
     title: "Order Summary"
     description: |
