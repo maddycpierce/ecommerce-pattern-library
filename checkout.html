@@ -2,6 +2,10 @@
 layout: default
 highlight_nav: checkout
 ---
+<div class="pad-t-2 gutter">
+  <h2 class="text-upper giga push-0">Checkout</h2>
+  {% pattern forms/fieldset title="Shopping Bag" %}
+</div>
 
 <div class="grid">
   <div class="unit xs-1 s-1 m-1 l-1 gutter">
@@ -12,8 +16,12 @@ highlight_nav: checkout
     {% pattern checkout/sign-in text="Sign In" %}
     <hr></hr>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 gutter">
-    {% pattern checkout/order-summary merchandise="$65.00 CAD" shipping="$9.29 CAD" duty="Free" tax="$0.00 CAD" order-total="$74.29 CAD" details="Include Free Gift Reciept" %}
+  <div class="unit xs-1 s-1 m-1 l-1 gutter pad-t push-0">
+    {% pattern forms/fieldset title="Order Summary" %}
+    {% pattern checkout/order-summary merchandise="$65.00 CAD" shipping="$9.29 CAD" duty="Free" tax="$0.00 CAD" order-total="$74.29 CAD" %}
+    <div class="push-0">
+      {% pattern forms/checkbox details="Include Free Gift Reciept" %}
+    </div>
   </div>
 </div>
 
