@@ -15,7 +15,10 @@ patterns:
         example: "/womens-swim/"
     description: |
       The basic button should be used in almost all situations.
+
   basic-long:
+    description: |
+      The basic long button is used to create extended buttons. It is only to be used when absolutely necessary. An example of this situation would be when the button is required to fill a space in order to balance a grid.
     title: "Basic Long"
     fields:
       - name: button_text
@@ -24,10 +27,11 @@ patterns:
       - name: url
         type: url
         example: "/"
-    description: |
-      The basic long button is used to create extended buttons. It is only to be used when absolutely necessary. An example of this situation would be when the button is required to fill a space in order to balance a grid.
+
   light:
     title: "Light"
+    description: |
+      The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
     fields:
       - name: button_text
         type: string
@@ -35,8 +39,7 @@ patterns:
       - name: url
         type: url
         example: "/"
-    description: |
-      The light button should be used exculsively in the footer. It is used to refer the site to a friend, or to provide feedback about the site.
+
   favourite-button:
     title: "Favourite Button"
     description: |
