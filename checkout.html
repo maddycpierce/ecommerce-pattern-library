@@ -2,3 +2,112 @@
 layout: default
 highlight_nav: checkout
 ---
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1 l-1-2">
+    <div class="pad-t-1-2 gutter">
+      <h2 class="text-upper giga push-0">Checkout</h2>
+      {% pattern forms/fieldset title="Shopping Bag" %}
+    </div>
+    <div>
+      <div class="gutter">
+        {% pattern checkout/shopping-bag title="Sea Breeze One-Piece Swim" price-item="$99.99 CAD" style-item="10934" colour-item="White" size-item="8" qty-item="1" image="/products/sea-breeze-one-piece-swim.jpg" %}
+      </div>
+      <div class="gutter">
+        <hr></hr>
+        {% pattern checkout/sign-in text="Sign In" %}
+        <hr></hr>
+      </div>
+    </div>
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1-2">
+    <div class="gutter pad-t-2 push-0">
+      {% pattern forms/fieldset title="Order Summary" %}
+      {% pattern checkout/order-summary merchandise="$65.00 CAD" shipping="$9.29 CAD" duty="Free" tax="$0.00 CAD" order-total="$74.29 CAD" %}
+      <div class="push-0">
+        {% pattern forms/checkbox details="Include Free Gift Reciept" %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1 l-1-2">
+    <div class="gutter">
+      {% pattern forms/fieldset title="Shipping Info" %}
+      <h5 class="push-0 pad-b-1-2 kilo">Shipping Address</h5>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4 pad-b-1-2">
+          {% pattern forms/select title-1="Country" placeholder-1="Select a Country" option_1="Australia" option_2="Austria" option_3="Brazil" option_4="Canada" option_5="China" option_6="France" option_7="Germany" option_8="Ireland" option_9="Mexico" option_10="New Zealand" option_11="Philippines" option_12="United-Kingdom" option_13="United States" error-message="Please select a Country" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="First Name" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="Last Name" %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+          {% pattern forms/basic-input title="Street Address" %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+          {% pattern forms/basic-input title="Apt #, Floor, etc" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="City" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4 pad-b-2">
+          {% pattern forms/select title-1="Province" placeholder-1="Select a Province" option_1="Alberta" option_2="British Columbia" option_3="Manitoba" option_4="New Brunswick" option_5="Newfoundland & Labrador" option_6="Northwest Territories" option_7="Nova Scotia" option_8="Nunavut" option_9="Ontario" option_10="Prince Edward Island" option_11="Québec" option_12="Saskatchewan" option_13="Yukon" error-message="Please select a Province" %}
+        </div>
+      </div>
+      <div class="gutter-1-4 pad-b-2">
+        {% pattern forms/information-container arrival="Arrives by February 04" arrival="$9.25 CAD Shipping" %}
+      </div>
+    </div>
+    <div class="gutter">
+      <div class="push-0">
+        {% pattern forms/fieldset title="Payment Info" %}
+      </div>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+          {% pattern forms/basic-input title="Have a Gift Card? Enter number below" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="City" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/select title-1="Province" placeholder-1="Select a Province" option_1="Alberta" option_2="British Columbia" option_3="Manitoba" option_4="New Brunswick" option_5="Newfoundland & Labrador" option_6="Northwest Territories" option_7="Nova Scotia" option_8="Nunavut" option_9="Ontario" option_10="Prince Edward Island" option_11="Québec" option_12="Saskatchewan" option_13="Yukon" error-message="Please select a Province" %}
+        </div>
+      </div>
+      <h5 class="push-0 pad-b-1-2 pad-t -1-2 kilo">Credit Card</h5>
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="Credit Card Number" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/select title-1="Card Type" placeholder-1="Select a Card" option_1="Visa" option_2="Master Card" option_3="American Express" option_4="PayPal" option_5="Gift Card" error-message="Please select a Card" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/basic-input title="Credit Card Number" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/select title-1="Card Type" placeholder-1="Select a Card" option_1="Visa" option_2="Master Card" option_3="American Express" option_4="PayPal" option_5="Gift Card" error-message="Please select a Card" %}
+        </div>
+      </div>
+      <h5 class="push-0 pad-b-1-2 pad-t -1-2 kilo">Billing Address</h5>
+      <div>
+        {% pattern forms/checkbox details="Same as Shipping Address" %}
+      </div>
+    </div>
+    <div class="gutter">
+      <div class="push-0">
+        {% pattern forms/fieldset title="Contact Info" %}
+      </div>
+      <div>
+        {% pattern forms/email-signup title="Email Address (Where we will send your receipt and tracking info)" %}
+      </div>
+      <div class="text-center pad-b-2">
+        {% pattern buttons/basic button_text="Place Order" url="/womens-swim/" %}
+      </div>
+    </div>
+  </div>
+</div>

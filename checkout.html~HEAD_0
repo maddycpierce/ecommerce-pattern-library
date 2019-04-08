@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1 l-1 gutter">
+    {% pattern checkout/shopping-bag title="Sea Breeze One-Piece Swim" price-item="$99.99 CAD" style-item="10934" colour-item="White" size-item="8" qty-item="1" image="/products/sea-breeze-one-piece-swim.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1 gutter">
+    <hr></hr>
+    {% pattern checkout/sign-in text="Sign In" %}
+    <hr></hr>
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1 gutter">
+    {% pattern checkout/order-summary merchandise="$65.00 CAD" shipping="$9.29 CAD" duty="Free" tax="$0.00 CAD" order-total="$74.29 CAD" details="Include Free Gift Reciept" %}
+  </div>
+</div>
+
+<div class="gutter">
+  {% pattern forms/fieldset %}
+  <div class="grid">
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="First Name" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="Last Name" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+      {% pattern forms/basic-input title="Street Address" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+      {% pattern forms/basic-input title="Apt #, Floor, etc" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="City" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4 pad-b-2">
+      {% pattern forms/select %}
+    </div>
+  </div>
+  <div class="gutter-1-4 pad-b-2">
+    {% pattern forms/information-container %}
+  </div>
+</div>
+
+<div class="gutter">
+  <div class="push-0">
+    {% pattern forms/fieldset %}
+  </div>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
+      {% pattern forms/basic-input title="Have a Gift Card? Enter number below" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="City" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/select %}
+    </div>
+  </div>
+  <h5 class="push-0 pad-b-1-2 pad-t -1-2 kilo">Credit Card</h5>
+  <div class="grid">
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="Credit Card Number" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/select %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/basic-input title="Credit Card Number" %}
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+      {% pattern forms/select %}
+    </div>
+  </div>
+  <h5 class="push-0 pad-b-1-2 pad-t -1-2 kilo">Billing Address</h5>
+  <div>
+    {% pattern forms/checkbox details="Same as Shipping Address" %}
+  </div>
+</div>
+
+<div class="gutter">
+  <div class="push-0">
+    {% pattern forms/fieldset %}
+  </div>
+  <div>
+    {% pattern forms/email-signup title="Email Address (Where we will send your receipt and tracking info)" %}
+  </div>
+  <div class="text-center pad-b-2">
+    {% pattern buttons/basic button_text="Place Order" url="/womens-swim/" %}
+  </div>
+</div>
