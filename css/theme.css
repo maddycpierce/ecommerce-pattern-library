@@ -65,6 +65,10 @@ p {
   text-decoration: none;
 }
 
+dt {
+  font-weight: bold;
+}
+
 .icon-label {
   text-decoration: none;
 }
@@ -86,12 +90,9 @@ a:active {
   color: var(--color-accent);
 }
 
-ol > li {
-  list-style-type: decimal-leading-zero;
-}
-
 .list-none {
   list-style-type: none;
+  padding-left: 1em;
 }
 
 blockquote {
@@ -195,4 +196,8 @@ select {
 
 a:focus {
   outline: 3px solid #000;
+}
+
+.header-bkg {
+  text-transform: uppercase;
 }
