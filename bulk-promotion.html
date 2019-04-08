@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<h1 class="text-center pad-t-2">Spring Sale!</h1>
+<div class="pad-b">
+  {% pattern banners/info-banner heading="All wetsuits 15% off" text="4 days only! Now through 4.10" image="info-banner.jpg" %}
+</div>
+
+<div class="grid gutter-2">
+  <div class="unit [ xs-1 s-1 m-1 l-1 xl-1 ]">
+    <h2 class="text-center">The New collection</h2>
+  </div>
+  <div class="pad-b unit [ xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 ]">
+    {% assign product=site.womens-swim[2] %}
+    {% pattern cards/product-card-category data=product %}
+  </div>
+  <div class="pad-b-2 unit [ xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 ]">
+    {% assign product=site.womens-swim[4] %}
+    {% pattern cards/product-card-category data=product %}
+  </div>
+  <div class="pad-b-2 max-length unit [ xs-1 s-1 m-1 l-1 xl-1 ]">
+    <h2 class="text-center push-none">More Ways to Save</h2>
+    <p class="text-center pad-b">Buy in bulk and you will be eligible for great discounts!</p>
+    <table>
+      <tr class="header-bkg">
+        <th scope="col">Quantity</th>
+        <th scope="col">Discount</th>
+      </tr>
+      <tr>
+        <td>1–5</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>6-10</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>11-15</td>
+        <td>50%</td>
+      </tr>
+    </table>
+  </div>
+  <div class="pad-b max-length unit [ xs-1 s-1 m-1 l-1 xl-1 ]">
+    {% pattern forms/email-signup title="Email Address (Where we will send your receipt and tracking info)" %}
+  </div>
+</div>
