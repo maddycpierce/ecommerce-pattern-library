@@ -194,10 +194,6 @@ select {
   border: var(--color-secondary);
 }
 
-a:focus {
-  outline: 3px solid #000;
-}
-
 .header-bkg {
   text-transform: uppercase;
 }

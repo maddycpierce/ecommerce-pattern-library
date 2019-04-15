@@ -5,7 +5,6 @@
   border-radius: 0;
   text-transform: uppercase;
   text-align: center;
-  transition: background-color, .35s, scale, .35s;
 }
 
 .btn-basic {
@@ -50,4 +49,8 @@
 .btn-fav:focus {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
+}
+
+.btn-transition {
+  transition: background-color, .35s, scale, .35s;
 }

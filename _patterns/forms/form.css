@@ -16,20 +16,6 @@ select {
   padding-left: .5em;
 }
 
-a:focus,
-li:hover,
-[tabindex="0"]:focus,
-details:focus,
-summary:focus,
-input:focus,
-textarea:focus,
-button:focus,
-select:focus {
-  outline: 0px solid var(--color-primary);
-  background-color: var(--color-primary);
-  outline-offset: 0;
-}
-
 input {
   color: var(--color-secondary);
 }
